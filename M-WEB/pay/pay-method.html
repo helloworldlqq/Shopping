@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimal-ui">
+    <title>Pay-method | Ezpopsy.com</title>
+    <link rel="stylesheet" href="../font-icon/iconfont.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/carts.css">
+    <link rel="stylesheet" href="../css/pay.css">
+    <script src="../lib/jquery-1.7.2.min.js"></script>
+</head>
+<body>
+
+<div class="wrapprer">
+    <header>
+        <div class="header-box" id="header-box">
+            <div class="menu">
+                <i id="show-menu" class="icon iconfont icon-icon-menu"></i>
+            </div>
+            <div class="menu-content">
+                <ul>
+                    <li>
+                        <a href="../index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="../shops/shop-list.html">SHOP ALL</a>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:void(0)">NECKLACES <i class="icon iconfont icon-htbarrowright02"></i> </a>
+                        <ol style="display: none">
+                            <li>
+                                <a href="../shops/shop-list.html">JRecommend</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">HotSale</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">NewArrival</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">HighPrice</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">LowPrice</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:void(0)">RINGS   <i class="icon iconfont icon-htbarrowright02"></i></a>
+                        <ol style="display: none">
+                            <li>
+                                <a href="../shops/shop-list.html">JRecommend</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">HotSale</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">NewArrival</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:void(0)">EARRINGS <i class="icon iconfont icon-htbarrowright02"></i></a>
+                        <ol style="display: none">
+                            <li>
+                                <a href="../shops/shop-list.html">JRecommend</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">HotSale</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">NewArrival</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:void(0)">BRACELETS <i class="icon iconfont icon-htbarrowright02"></i></a>
+                        <ol style="display: none">
+                            <li>
+                                <a href="../shops/shop-list.html">JRecommend</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">HotSale</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">NewArrival</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:void(0)">NEW ARRIVALS <i class="icon iconfont icon-htbarrowright02"></i></a>
+                        <ol style="display: none">
+                            <li>
+                                <a href="../shops/shop-list.html">JRecommend</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">HotSale</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">NewArrival</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li><a href="../account/account.html" style="color:#727272;">MY ACCOUNT</a></li>
+                    <li><a href="../help/help.html" style="color:#727272;">HELP</a></li>
+                    <li><a href="" style="color:#727272;">FEEDBACK</a></li>
+                    <li> &nbsp;</li>
+                    <li class="user-sign clear">
+                        <a href="../login/login.html">SIGN IN </a> <a href="../login/login.html">REGISTER</a>
+                        <div class="clear"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="logo">
+                <span></span>
+            </div>
+            <div class="cart">
+                <span><a href="../Collect/Collect.html"><i class="icon iconfont icon-start1"></i></a></span>
+                <span><a href="../bags/carts.html"><i class="icon iconfont icon-shoppingbag"></i> <label id="bag-number">2</label> </a></span>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="bag">
+            <!--购物进度状态-->
+            <div class="shopping-status">
+                <table >
+                    <tr>
+                        <td class="type-number ">
+                            <span><i class="icon iconfont icon-iconselected"></i></span>
+                        </td>
+                        <td class="type-hr">
+                            <span ><i class="icon iconfont icon-youjiantou1"></i></span>
+                        </td>
+                        <td class="type-number">
+                            <span><i class="icon iconfont icon-iconselected"></i></span>
+                        </td>
+                        <td class="type-hr">
+                            <span><i class="icon iconfont icon-youjiantou1"></i></span>
+                        </td>
+                        <td class="type-number">
+                            <span  class="type-now-number">3</span>
+                        </td>
+                        <td class="type-hr">
+                            <span><i class="icon iconfont icon-youjiantou1"></i></span>
+                        </td>
+                        <td class="type-number">
+                            <span>4</span>
+                        </td>
+                    </tr>
+                    <tr class="type-title">
+                        <td >Bag</td>
+                        <td></td>
+                        <td >Order</td>
+                        <td></td>
+                        <td class="type-now-title">Pay</td>
+                        <td></td>
+                        <td>Complete</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="deliver-address">
+                Deliver  Address
+            </div>
+            <div class="pay-box">
+
+                <div class="shop-address">Choose apayment method</div>
+
+                <div class="pay-type">
+                    <ul>
+                        <li>
+                            <input type="radio" name="pay"  id="pay1" value="pay1" checked>
+                            <label for="pay1"><img src="../images/pay1.jpg" alt=""></label>
+                        </li>
+                        <li>
+                            <input type="radio" name="pay" id="pay2" value="pay2">
+                            <label for="pay2"><img src="../images/pay2.jpg" alt=""><img src="../images/pay3.jpg" alt=""></label>
+                        </li>
+                        <!--<li>-->
+                            <!--<input type="radio" name="pay" id="pay3" value="pay3">-->
+                            <!--<label for="pay3"><img src="../images/pay4.jpg" alt=""></label>-->
+                        <!--</li>-->
+                    </ul>
+                </div>
+
+                 <!--<div class="other-pay" style="display: none">-->
+                    <!--<div class="shop-address">Billing Address</div>-->
+                    <!--<div class="shop-address-box">-->
+                    <!--<ul>-->
+                        <!--<li>Name <span>Tom</span></li>-->
+                        <!--<li>Country <span>1</span></li>-->
+                        <!--<li>Address City <span>Shanxi</span></li>-->
+                        <!--<li >Phone Number <span>10010</span></li>-->
+                        <!--<li style="text-align: right"> <span class="shop-address-edit"> <a href="../account/edit-address.html"> Edit</a></span></li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+                     <!--<div class="shop-address">Credit Card Payment</div>-->
+                     <!--<ul>-->
+                         <!--<li class="other-pay-text">*Card Number</li>-->
+                         <!--<li><input type="text" placeholder="xxxx xxxx xxxx"></li>-->
+                         <!--<li class="other-pay-text">*Expiration Date</li>-->
+                         <!--<li class="other-pay-select">-->
+                             <!--<select name="" id="Month">-->
+                                 <!--<option value="">1</option>-->
+                             <!--</select>-->
+                             <!--<select name="" id="Year">-->
+                                 <!--<option value="">2017</option>-->
+                                 <!--<option value="">2018</option>-->
+                                 <!--<option value="">2019</option>-->
+                                 <!--<option value="">2020</option>-->
+                             <!--</select>-->
+                         <!--</li>-->
+                         <!--<li class="other-pay-text">*CVV/CVC</li>-->
+                         <!--<li><input type="text" style="width: 60%"> <span class="pay-cvv">i</span></li>-->
+                     <!--</ul>-->
+                 <!--</div>-->
+                <div class="shop-total">
+
+                    <ul>
+                        <li class="shop-total-text">Order  summary</li>
+                        <li>
+                            <span>Subtota</span>
+                            <span> $96.00</span>
+                        </li>
+                        <li>
+                            <span>Shipping</span>
+                            <span>$0.00</span>
+                        </li>
+                        <li>
+                            <span>Estimated Total</span> <span></span>
+                        </li>
+                        <li style="font-weight:600">
+                            <span>Total</span>
+                            <span>USD $96.00</span>
+                        </li>
+                        <li class="shop-hr">&nbsp;</li>
+
+                        <!--<li class="shops-btn">-->
+                            <!--<a href="pay-status.html" style="background-color: black;color: white">Checkout</a>-->
+                        <!--</li>-->
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="clear">
+        <!--<div class="other-link">-->
+            <!--<a href=""><i class="icon iconfont icon-tian7_facebook"></i></a>-->
+            <!--<a href=""><i class="icon iconfont icon-google1"></i></a>-->
+            <!--<a href=""><i class="icon iconfont icon-Twitter"></i></a>-->
+            <!--<a href=""><i class="icon iconfont icon-icon_pinterest"></i></a>-->
+            <!--<a href=""><i class="icon iconfont icon-youtube"></i></a>-->
+        <!--</div>-->
+
+        <!--<div class="sign">-->
+            <!--<input type="text" name="email" placeholder="Enter Your Email Address">-->
+            <!--<a href="javascript:void(0)" class="btn">Sign Up</a>-->
+        <!--</div>-->
+
+        <div class="bottom-nav">
+            <ul>
+                <li class="item">
+                    <a href="javascript:void(0)">POLICY  <i class="icon iconfont icon-htbarrowright02"></i></a>
+                    <ol style="display: none" class="ol-nav">
+                        <li>
+                            <a href="javascript:void(0)">45</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">78</a>
+                        </li>
+                    </ol>
+                </li>
+
+                <li class="item">
+                    <a href="javascript:void(0)">CUSTOMER SERVICE <i class="icon iconfont icon-htbarrowright02"></i></a>
+                    <ol style="display: none">
+                        <li>
+                            <a href="">45</a>
+                        </li>
+                        <li>
+                            <a href="">78</a>
+                        </li>
+                    </ol>
+
+                </li>
+                <li class="item">
+                    <a href="javascript:void(0)">SHOPPING GUIDE<i class="icon iconfont icon-htbarrowright02"></i></a>
+                    <ol style="display: none">
+                        <li>
+                            <a href="">45</a>
+                        </li>
+                        <li>
+                            <a href="">78</a>
+                        </li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+
+        <div style="text-align: center;color: #727272;font-size: 0.8rem;font-family: Helvetica;margin-bottom: 40px;">© 2017 Bemelos.com All Right Reserved.</div>
+    </footer>
+
+
+   <div class="pay-method-checkout">
+       <a href="">Checkout</a>
+   </div>
+
+</div>
+<script src="../lib/base.js"></script>
+
+
+<script>
+
+//    function NumberCut(event) {
+//
+//        var Number=$('#CardNumber').val().toString().replace(/\s/g, "");
+//
+//        for(i=1;i<Number.length/4;i++){
+//            var temp = Number.slice(0, -5 * i + 1);    //从后往前数，来获取前面的字符串
+//            Number = Number.replace(temp, temp + ' ');
+//        }
+//        $('#CardNumber').val(Number);
+//    }
+
+    $(".pay-type input[type='radio']").each(function (index,e) {
+        $(this).click(function () {
+            if(this.checked && $(this).val()=='pay3'){
+                $('.other-pay').css('display','block');
+            }else {
+                $('.other-pay').css('display','none');
+            }
+        })
+
+    })
+
+</script>
+</body>
+</html>

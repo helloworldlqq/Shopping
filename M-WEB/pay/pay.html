@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimal-ui">
+    <title>Pay | Ezpopsy.com</title>
+    <link rel="stylesheet" href="../font-icon/iconfont.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/carts.css">
+    <link rel="stylesheet" href="../css/pay.css">
+    <script src="../lib/jquery-1.7.2.min.js"></script>
+
+</head>
+<body>
+
+<div class="wrapprer">
+    <header>
+        <div class="header-box" id="header-box">
+            <div class="menu">
+                <i id="show-menu" class="icon iconfont icon-icon-menu"></i>
+            </div>
+            <div class="menu-content">
+                <ul>
+                    <li>
+                        <a href="../index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="../shops/shop-list.html">SHOP ALL</a>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:void(0)">NECKLACES <i class="icon iconfont icon-htbarrowright02"></i> </a>
+                        <ol style="display: none">
+                            <li>
+                                <a href="../shops/shop-list.html">JRecommend</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">HotSale</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">NewArrival</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">HighPrice</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">LowPrice</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:void(0)">RINGS   <i class="icon iconfont icon-htbarrowright02"></i></a>
+                        <ol style="display: none">
+                            <li>
+                                <a href="../shops/shop-list.html">JRecommend</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">HotSale</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">NewArrival</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:void(0)">EARRINGS <i class="icon iconfont icon-htbarrowright02"></i></a>
+                        <ol style="display: none">
+                            <li>
+                                <a href="../shops/shop-list.html">JRecommend</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">HotSale</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">NewArrival</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:void(0)">BRACELETS <i class="icon iconfont icon-htbarrowright02"></i></a>
+                        <ol style="display: none">
+                            <li>
+                                <a href="../shops/shop-list.html">JRecommend</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">HotSale</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">NewArrival</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:void(0)">NEW ARRIVALS <i class="icon iconfont icon-htbarrowright02"></i></a>
+                        <ol style="display: none">
+                            <li>
+                                <a href="../shops/shop-list.html">JRecommend</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">HotSale</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">NewArrival</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li><a href="../account/account.html" style="color:#727272;">MY ACCOUNT</a></li>
+                    <li><a href="../help/help.html" style="color:#727272;">HELP</a></li>
+                    <li><a href="" style="color:#727272;">FEEDBACK</a></li>
+                    <li> &nbsp;</li>
+                    <li class="user-sign clear">
+                        <a href="../login/login.html">SIGN IN </a> <a href="../login/login.html">REGISTER</a>
+                        <div class="clear"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="logo">
+                <span></span>
+            </div>
+            <div class="cart">
+                <span><a href="../Collect/Collect.html"><i class="icon iconfont icon-start1"></i></a></span>
+                <span><a href="../bags/carts.html"><i class="icon iconfont icon-shoppingbag"></i> <label id="bag-number">2</label> </a></span>
+            </div>
+        </div>
+    </header>
+
+    <section>
+
+        <div class="bag">
+            <!--购物进度状态-->
+            <div class="shopping-status">
+                <table >
+                    <tr>
+                        <td class="type-number ">
+                            <span><i class="icon iconfont icon-iconselected"></i></span>
+                        </td>
+                        <td class="type-hr">
+                            <span ><i class="icon iconfont icon-youjiantou1"></i></span>
+                        </td>
+                        <td class="type-number">
+                            <span  class="type-now-number">2</span>
+                        </td>
+                        <td class="type-hr">
+                            <span><i class="icon iconfont icon-youjiantou1"></i></span>
+                        </td>
+                        <td class="type-number">
+                            <span >3</span>
+                        </td>
+                        <td class="type-hr">
+                            <span><i class="icon iconfont icon-youjiantou1"></i></span>
+                        </td>
+                        <td class="type-number">
+                            <span>4</span>
+                        </td>
+                    </tr>
+                    <tr class="type-title">
+                        <td >My Bag</td>
+                        <td></td>
+                        <td class="type-now-title">Order</td>
+                        <td></td>
+                        <td >Pay</td>
+                        <td></td>
+                        <td>Complete</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="deliver-address">
+                Deliver  Address
+            </div>
+            <div class="pay-box">
+                <ul class="pay-input1">
+                    <li class="pay-box-text">Contact Information</li>
+                    <li class="pay-box-input1"><input type="text" placeholder="*First Name"> <input type="text" placeholder="*Last Name"></li>
+                    <li><select name="" id="">
+                        <option value="" selected>china</option>
+                        <option value="">Aaland Islands</option>
+                        <option value="">Armenia</option>
+                        <option value="">Australia</option>
+                        </select>
+                    </li>
+                    <li class="pay-box-input2"><input type="text" placeholder="*Phone Number"></li>
+                    <li class="pay-box-input2"><input type="text" name="email" placeholder="*Email Address"></li>
+                    <li class="pay-box-text">Address</li>
+                    <li class="pay-box-input2"><input type="text" placeholder="*Address"></li>
+                    <li class="pay-box-input1"><input type="text" placeholder="*City"> <input type="text" placeholder="State/Province"></li>
+                    <li class="pay-box-input2"><input type="text" placeholder="*Postal or zip code"></li>
+                    <li class="pay-box-text"><input type="checkbox" checked> Use as billing address</li>
+                </ul>
+
+                <ul style="display: none">
+                    <li class="pay-box-text"class="pay-box-text">Add securlty details</li>
+                    <li class="pay-box-input2"><input type="text" placeholder="*Please create a password"></li>
+                    <li class="pay-box-input2"><input type="text" placeholder="**Please confirm a password"></li>
+                    <li class="pay-box-text"><input type="checkbox"> I want to receive newsletters and updates from Farfetch by email and post</li>
+                </ul>
+
+                <div class="shop-total">
+
+                    <ul>
+                        <li class="shop-total-text">Order  summary</li>
+                        <li>
+                            <span>Subtota</span>
+                            <span> $96.00</span>
+                        </li>
+                        <li>
+                            <span>Shipping</span>
+                            <span>$0.00</span>
+                        </li>
+                        <li>
+                            <span>Estimated Total</span> <span></span>
+                        </li>
+                        <li style="font-weight:600">
+                            <span>Total</span>
+                            <span>USD $96.00</span>
+                        </li>
+                        <li class="shop-hr">&nbsp;</li>
+                        <!--<li class="shops-btn"><a class="checkout" href="javascript:void(0)" style="background-color: black;color: white">Checkout</a></li>-->
+                        <!--<li class="shops-btn">-->
+                            <!--<a href="" style="background-color: #ffc439;color: black">-->
+                                <!--<span>Check out with</span><img src="../images/check.png" alt="">-->
+                            <!--</a>-->
+                        <!--</li>-->
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="page-title">
+                <p>Shipping  Method</p>
+                <span></span>
+            </div>
+
+            <div class="pay-shopping-method">
+                <ul>
+                    <li><input type="radio" name="shopping-method" id="shopping-method1" checked><label for="shopping-method1"> <span>Standard Shipping</span> <span>  Normally 7-14 Days  </span> <span>US$ 0.00</span></label></li>
+                    <li><input type="radio" name="shopping-method" id="shopping-method2"> <label for="shopping-method2"> <span>Expedited Shipping </span>   <span>Normally 2-5 Days </span>  <span>US$ 20.77</span></label></li>
+                </ul>
+            </div>
+
+            <div class="page-title">
+                <p>Order  Summary</p>
+                <span></span>
+            </div>
+            <div class="shop-box">
+                <div class="shop-box-img">
+                    <a href=""><img src="../images/product1.jpg" alt=""></a>
+                </div>
+                <ul>
+                    <li class="shops-name">Golden Gold Plated Tassel In Deep Necklace</li>
+                    <li class="shops-attr"><span>SKU:</span> <span>Q4125834</span></li>
+                    <li class="shops-attr"><span>Price:</span> <span>$96.00</span></li>
+                    <li class="shops-attr"><span>Color:</span> <span>blue</span></li>
+                    <li class="shops-attr"><span>Size:</span> <span>4</span></li>
+                    <li class="shops-attr num"> <span>Quantity: </span> <span>1</span>  </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="clear">
+        <!--<div class="other-link">-->
+            <!--<a href=""><i class="icon iconfont icon-tian7_facebook"></i></a>-->
+            <!--<a href=""><i class="icon iconfont icon-google1"></i></a>-->
+            <!--<a href=""><i class="icon iconfont icon-Twitter"></i></a>-->
+            <!--<a href=""><i class="icon iconfont icon-icon_pinterest"></i></a>-->
+            <!--<a href=""><i class="icon iconfont icon-youtube"></i></a>-->
+        <!--</div>-->
+        <!--<div class="sign">-->
+            <!--<input type="text" name="email" placeholder="Enter Your Email Address">-->
+            <!--<a href="javascript:void(0)" class="btn">Sign Up</a>-->
+        <!--</div>-->
+
+        <div class="bottom-nav">
+            <ul>
+                <li class="item">
+                    <a href="javascript:void(0)">POLICY  <i class="icon iconfont icon-htbarrowright02"></i></a>
+                    <ol style="display: none" class="ol-nav">
+                        <li>
+                            <a href="javascript:void(0)">45</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">78</a>
+                        </li>
+                    </ol>
+                </li>
+
+                <li class="item">
+                    <a href="javascript:void(0)">CUSTOMER SERVICE <i class="icon iconfont icon-htbarrowright02"></i></a>
+                    <ol style="display: none">
+                        <li>
+                            <a href="">45</a>
+                        </li>
+                        <li>
+                            <a href="">78</a>
+                        </li>
+                    </ol>
+
+                </li>
+                <li class="item">
+                    <a href="javascript:void(0)">SHOPPING GUIDE<i class="icon iconfont icon-htbarrowright02"></i></a>
+                    <ol style="display: none">
+                        <li>
+                            <a href="">45</a>
+                        </li>
+                        <li>
+                            <a href="">78</a>
+                        </li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+
+        <div style="text-align: center;color: #727272;font-size: 0.8rem;font-family: Helvetica;margin-bottom: 40px;">© 2017 Bemelos.com All Right Reserved.</div>
+    </footer>
+
+
+
+    <!--固定支付按钮-->
+    <div class="pay-but">
+        <a class="checkout" href="javascript:void(0)">checkout</a>
+        <a href="">
+            <img src="../images/check.png" alt="">
+        </a>
+    </div>
+
+</div>
+<script src="../lib/base.js"></script>
+
+<script>
+    $('.checkout').click(function () {
+       var res=true;
+
+       $('.pay-input1 input[type="text"]').each(function () {
+
+       if($(this).val()==''){
+          res=false;
+          alert('Please enter you' +$(this).attr('placeholder'));
+          $(this).css('border-color','#a48156');
+          $(this).focus(function () {
+              $(this).css('border-color','#959595');
+          })
+          return false;
+      }
+
+    })
+
+        if(res){
+           alert('success!');
+            window.location.href='pay-method.html';
+        }
+
+
+    })
+</script>
+
+</body>
+</html>

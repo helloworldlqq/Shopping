@@ -1,0 +1,320 @@
+.deliver-address{
+    border-bottom:1px solid #ccc ;
+    padding: 10px 10%;
+    padding-top: 0px;
+    font-size: 0.8125rem;
+    font-family: Helvetica;
+    /*color: #666;*/
+}
+.pay-box{
+    border-bottom: 1px solid #ccc;
+    padding:10px 10%;
+}
+.pay-box-text{
+    font-size: 0.8125rem;
+    font-family: Helvetica;
+    padding: 3px 0px;
+    margin-top: 6px;
+}
+.pay-box ul li{
+    display: block;
+}
+.pay-box-input1 input{
+    display: inline-block;
+    width: 48%;
+    margin-top: 10px;
+    height: 36px;
+    line-height: 36px;
+    text-indent: 5px;
+    border: none;
+    border: 1px solid #959595;
+    color: #888;
+
+}
+.pay-box-input1 input:last-child{
+    float: right;
+}
+.pay-box-input2 input{
+    display: inline-block;
+    width: 99%;
+    margin-top: 10px;
+    height: 36px;
+    line-height: 36px;
+    text-indent: 5px;
+    border: none;
+    border: 1px solid #959595;
+    color: #888;
+}
+.pay-box select{
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    padding: 3px 0;
+    border: none;
+    border: 1px solid #959595;
+    outline: none;
+    color: #888;
+}
+
+.pay-address-cancel{
+    display:inline-block;
+    width: 48%;
+    text-align: center;
+    height: 36px;line-height: 36px;
+    background-color: white;
+    color: black;
+    border: 1px solid #000000;
+}
+.pay-address-submit{
+    display:inline-block;
+    width: 48%;
+    text-align: center;
+    height: 36px;
+    line-height: 36px;
+    background-color: black;
+    color: white;
+    float: right;
+    border: 1px solid #000000;
+}
+
+
+
+.shop-total{
+    border-top:1px solid #ccc;
+}
+
+.page-title p{
+    font-size: 0.875rem !important;
+}
+.pay-shopping-method{
+    width: 90%;
+    margin:20px auto;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.pay-shopping-method ul{
+    display: block;
+    margin:20px auto;
+
+}
+.pay-shopping-method ul li{
+    margin: 10px 0;
+    font-size: 0.75rem;
+}
+.pay-shopping-method ul li input{
+    vertical-align:middle;
+    margin-right: 5px;
+}
+.pay-shopping-method ul li span{
+    vertical-align:middle;
+    margin-right: 5px;
+}
+.shop-box{
+    width: 90%;
+    margin: auto;
+    border-top: 1px solid #ccc !important;
+    padding-top: 30px;
+}
+.shop-box-img{
+    width: 75%;
+    margin: auto;
+}
+.shop-box ul{
+    display: block;
+    width: 89%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.shops-attr{
+    color: black !important;
+}
+
+
+
+/*pay-select-shop-address*/
+.shop-address{
+    font-size: 0.8125rem;
+    font-family: Helvetica;
+
+}
+.shop-address-box{
+    border: 1px solid #ccc;
+    width: 90%;
+    padding: 15px 5%;
+    position: relative;
+    margin: 10px 0;
+}
+.shop-address-box ul li{
+    margin: 10px 0;
+    font-size: 0.85rem;
+    font-family: Helvetica;
+}
+.shop-address-box ul li span{
+    color: #4e4d4d;
+}
+.shop-address-box ul li label{
+    display: block;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 1rem;
+    width: 100%;
+    word-wrap: break-word;
+
+}
+
+
+
+.shop-address-edit {
+    /*float: right;*/
+}
+.shop-address-edit a{
+    display: inline-block;
+    margin: 0 5px;
+    text-decoration: underline;
+}
+
+.shop-add-address a{
+    display: inline-block;
+    margin: 6px 0;
+    font-size: 0.9rem;
+    font-family: Helvetica;
+    color: #4e4d4d;
+    text-decoration: underline;
+}
+.default-Address{
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid #a48156;
+    border-radius: 50%;
+    position: absolute;
+    top: -0.4rem;
+    right:-0.4rem;
+    line-height: 1rem;
+    text-align: center;
+    background-color: #a48156;
+    display: none;
+}
+.default-Address i{
+    font-size: 0.5rem;
+    color: white;
+}
+
+
+/*pay-method*/
+.pay-type{
+    margin: 20px 0;
+}
+.pay-type ul li{
+    display: block;
+    margin: 15px 0;
+}
+.pay-type ul li img{
+    height: 20px;
+    margin: 0 5px;
+}
+.pay-type ul li input{
+    margin-right: 20px;
+    vertical-align:middle;
+}
+.pay-type ul li label{
+    display: inline-block;
+    vertical-align:middle;
+}
+
+.other-pay ul li{
+    margin: 5px 0;
+}
+.other-pay ul li input{
+    width: 98%;
+    padding: 0 1%;
+    height: 36px;
+    line-height: 36px;
+    outline: none;
+    border: none;
+    border: 1px solid #959595;
+}
+.other-pay-text{
+    margin-top: 10px !important;
+    font-size: 0.9rem;
+    font-family: Helvetica;
+    color: #706f6f;
+}
+.other-pay-select select{
+   display: inline-block;
+    width: 48%;
+    color: #b5b5b5;
+
+}
+.other-pay-select select:last-child{
+    float: right;
+}
+.pay-cvv{
+    margin-left: 10px;
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    border: 1px solid #959595;
+    border-radius: 50%;
+}
+
+
+
+
+/*pay-status-box*/
+.pay-status-box{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.pay-status-title{
+    font-size: 1.5rem;
+    font-family: Georgia;
+    margin-bottom: 40px;
+}
+.pay-status-box span{
+    display: block;
+    font-size: 0.825rem;
+    font-family: Helvetica;
+    line-height: 25px;
+}
+.pay-status-box span a{
+    color: #a48156;
+    display: inline-block;
+    border-bottom: 1px solid #a48156;
+}
+.pay-status-box > a{
+    display: inline-block;
+    width: 47%;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 0.875rem;
+    margin: 0 1%;
+    border: 1px solid #959595;
+    margin-top: 20px;
+}
+
+
+/*check 固定在底部*/
+.pay-method-checkout{
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+}
+.pay-method-checkout a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1rem;
+    font-family: Arial;
+    background-color: black;
+    color: white;
+}

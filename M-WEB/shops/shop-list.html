@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimal-ui">
+    <title>Shop-list | Ezpopsy.com</title>
+    <link rel="stylesheet" href="../font-icon/iconfont.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/sign.css">
+    <link rel="stylesheet" href="../css/shop-list.css">
+    <script src="../lib/jquery-1.7.2.min.js"></script>
+    <script src="../lib/jquery.lazyload.min.js"></script>
+    <script src="../lib/requirejs/require.js"></script>
+
+</head>
+<body>
+
+<div class="wrapprer">
+    <header>
+        <div class="header-box" id="header-box">
+            <div class="menu">
+                <i id="show-menu" class="icon iconfont icon-icon-menu"></i>
+            </div>
+            <div class="menu-content">
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="shop-list.html">SHOP ALL</a></li>
+                    <li class="item">
+                        <a href="javascript:void(0)">NECKLACES <i class="icon iconfont icon-htbarrowright02"></i> </a>
+                        <ol style="display: none">
+                            <li>
+                                <a href="">JRecommend</a>
+                            </li>
+                            <li>
+                                <a href="">HotSale</a>
+                            </li>
+                            <li>
+                                <a href="">NewArrival</a>
+                            </li>
+                            <li>
+                                <a href="">HighPrice</a>
+                            </li>
+                            <li>
+                                <a href="">LowPrice</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:void(0)">RINGS<i class="icon iconfont icon-htbarrowright02"></i></a>
+                        <ol style="display: none">
+                            <li>
+                                <a href="shop-list.html">JRecommend</a>
+                            </li>
+                            <li>
+                                <a href="shop-list.html">HotSale</a>
+                            </li>
+                            <li>
+                                <a href="shop-list.html">NewArrival</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:void(0)">EARRINGS <i class="icon iconfont icon-htbarrowright02"></i></a>
+                        <ol style="display: none">
+                            <li>
+                                <a href="shops/shop-list.html">JRecommend</a>
+                            </li>
+                            <li>
+                                <a href="shop-list.html">HotSale</a>
+                            </li>
+                            <li>
+                                <a href="shop-list.html">NewArrival</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:void(0)">BRACELETS <i class="icon iconfont icon-htbarrowright02"></i></a>
+                        <ol style="display: none">
+                            <li>
+                                <a href="shop-list.html">JRecommend</a>
+                            </li>
+                            <li>
+                                <a href=shop-list.html">HotSale</a>
+                            </li>
+                            <li>
+                                <a href="shop-list.html">NewArrival</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:void(0)">NEW ARRIVALS <i class="icon iconfont icon-htbarrowright02"></i></a>
+                        <ol style="display: none">
+                            <li>
+                                <a href="shop-list.html">JRecommend</a>
+                            </li>
+                            <li>
+                                <a href="shop-list.html">HotSale</a>
+                            </li>
+                            <li>
+                                <a href="shop-list.html">NewArrival</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li><a href="../account/account.html" style="color:#727272;">MY ACCOUNT</a></li>
+                    <li><a href="../help/help.html" style="color:#727272;">HELP</a></li>
+                    <li><a href="" style="color:#727272;">FEEDBACK</a></li>
+                    <li> &nbsp;</li>
+                    <li class="user-sign clear">
+                        <a href="../login/login.html">SIGN IN </a>
+                        <a href="../login/login.html">REGISTER</a>
+                        <div class="clear"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="logo">
+                <span></span>
+            </div>
+            <div class="cart">
+                <span><a href="../Collect/Collect.html"><i class="icon iconfont icon-start1"></i></a></span>
+                <span><a href="../bags/carts.html"><i class="icon iconfont icon-shoppingbag"></i> <label id="bag-number">2</label> </a></span>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="shop-select">
+            <ul>
+                <li><a href="javascript:void(0)"><span>Bestsellers</span></a></li>
+                <li><a href="javascript:void(0)"><span>New</span></a> </li>
+                <li class="shop-select-price">
+                      <a href="javascript:void(0)">
+                      <span>Price</span>
+                      <span class="price-icon">
+                           <i class="icon iconfont icon-icon-arrow-up"></i>
+                           <i class="icon iconfont icon-icon-arrow-down"></i>
+                      </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="select-all">
+                        <span style="display: inline-block;">Select</span>
+                        <span class="shop-icon-select">
+                            <i class="icon iconfont icon-select"></i>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="select-box">
+            <div class="select-all-content">
+                <div class="select-type">
+                    <div class="select-title">JRecommend </div>
+                    <div class="select-item">
+                        <span>Filter by</span>
+                        <span>Filter by</span>
+                        <span>Filter by</span>
+                        <span>Filter by</span>
+                    </div>
+                </div>
+                <div class="select-type">
+                    <div class="select-title">HotSale </div>
+                    <div class="select-item">
+                        <span>Filter by</span>
+                        <span>Filter by</span>
+                        <span>Filter by</span>
+                        <span>Filter by</span>
+                        <span>Filter by</span>
+                        <span>Filter by</span>
+                        <span>Filter by</span>
+                    </div>
+                </div>
+                <div class="select-type">
+                    <div class="select-title">NewArrival </div>
+                    <div class="select-item">
+                        <span>Filter by</span>
+                        <span>Filter by</span>
+                        <span>Filter by</span>
+                        <span>Filter by</span>
+                    </div>
+                </div>
+
+                <div class="select-type">
+                    <div class="select-title">HighPrice</div>
+                    <div class="select-item">
+                        <span>Filter by</span>
+                        <span>Filter by</span>
+                        <span>Filter by</span>
+                        <span>Filter by</span>
+                    </div>
+                </div>
+
+                <div class="select-type">
+                    <div class="select-title">LowPrice </div>
+                    <div class="select-item">
+                        <span>Filter by</span>
+                        <span>Filter by</span>
+                        <span>Filter by</span>
+                        <span>Filter by</span>
+                    </div>
+                </div>
+
+                <div class="select-type">
+                    <div class="select-title">LowPrice </div>
+                    <div class="select-item">
+                        <span>Filter by</span>
+                        <span>Filter by</span>
+                        <span>Filter by</span>
+                        <span>Filter by</span>
+                    </div>
+                </div>
+            </div>
+            <div class="select-btn" id="select-btn">
+                <a href="javascript:void(0)" class="select-reset">Reset</a>
+                <a href="javascript:void(0)" class="select-results">View Results</a>
+            </div>
+        </div>
+        <div class="shop-show">
+        <!--<div class="home-nav">-->
+          <!--<span><a href="">Home</a></span>-->
+          <!--<span><i class="icon iconfont icon-xiexian"></i></span>-->
+          <!--<span><a href="">Necklaces</a></span>-->
+        <!--</div>-->
+
+
+
+        <!--<select name="" id="">-->
+            <!--<option value="" selected>SORT BY</option>-->
+            <!--<option value="">Price Low to High</option>-->
+            <!--<option value="">Price High to Low</option>-->
+            <!--<option value="">Is New desc</option>-->
+            <!--<option value="">Bestsellers</option>-->
+        <!--</select>-->
+        <!--<div class="shop-select-list">-->
+           <!--<div class="select-by item" >-->
+               <!--<a href="javascript:void(0)">Filter by <i class="icon iconfont icon-htbarrowright02"></i></a>-->
+
+               <!--<ul class="select-content">-->
+               <!--<li class="select-item">-->
+                   <!--<a href="javascript:void(0)">JRecommend <i class="icon iconfont icon-add"></i> </a>-->
+                   <!--<dl>-->
+                       <!--<dt><a href="javascript:void(0)">Filter by</a></dt>-->
+                       <!--<dt><a href="javascript:void(0)">Filter by</a></dt>-->
+                       <!--<dt><a href="javascript:void(0)">Filter by</a></dt>-->
+                       <!--<dt><a href="javascript:void(0)">Filter by</a></dt>-->
+                   <!--</dl>-->
+               <!--</li >-->
+               <!--<li class="select-item">-->
+                   <!--<a href="javascript:void(0)">HotSale <i class="icon iconfont icon-add"></i></a>-->
+                   <!--<dl>-->
+                       <!--<dt><a href="javascript:void(0)">Filter by</a></dt>-->
+                       <!--<dt><a href="javascript:void(0)">Filter by</a></dt>-->
+                       <!--<dt><a href="javascript:void(0)">Filter by</a></dt>-->
+                       <!--<dt><a href="javascript:void(0)">Filter by</a></dt>-->
+                   <!--</dl>-->
+               <!--</li>-->
+               <!--<li class="select-item">-->
+                   <!--<a href="javascript:void(0)">NewArrival  <i class="icon iconfont icon-add"></i></a>-->
+                   <!--<dl>-->
+                       <!--<dt><a href="javascript:void(0)">Filter by</a></dt>-->
+                       <!--<dt><a href="javascript:void(0)">Filter by</a></dt>-->
+                       <!--<dt><a href="javascript:void(0)">Filter by</a></dt>-->
+                       <!--<dt><a href="javascript:void(0)">Filter by</a></dt>-->
+                   <!--</dl>-->
+               <!--</li>-->
+               <!--<li class="select-item">-->
+                   <!--<a href="javascript:void(0)">HighPrice <i class="icon iconfont icon-add"></i></a>-->
+                   <!--<dl>-->
+                       <!--<dt><a href="javascript:void(0)">Filter by</a></dt>-->
+                       <!--<dt><a href="javascript:void(0)">Filter by</a></dt>-->
+                       <!--<dt><a href="javascript:void(0)">Filter by</a></dt>-->
+                       <!--<dt><a href="javascript:void(0)">Filter by</a></dt>-->
+                   <!--</dl>-->
+               <!--</li>-->
+               <!--<li class="select-item">-->
+                   <!--<a href="javascript:void(0)">LowPrice <i class="icon iconfont icon-add"></i></a>-->
+                   <!--<dl>-->
+                       <!--<dt><a href="javascript:void(0)">Filter by</a></dt>-->
+                       <!--<dt><a href="javascript:void(0)">Filter by</a></dt>-->
+                       <!--<dt><a href="javascript:void(0)">Filter by</a></dt>-->
+                       <!--<dt><a href="javascript:void(0)">Filter by</a></dt>-->
+                   <!--</dl>-->
+               <!--</li>-->
+               <!--<li style="border: none">-->
+                   <!--&nbsp;-->
+               <!--</li>-->
+               <!--<li class="select-clear" >-->
+                   <!--<a href="javascript:void(0)" class="clear-all">CLEAR ALL</a>-->
+                   <!--<a href="javascript:void(0)" class="cancel">CANCEL</a>-->
+                   <!--<a href="javascript:void(0)" CLASS="results">View Results</a>-->
+               <!--</li>-->
+           <!--</ul>-->
+
+           <!--</div>-->
+       <!--</div>-->
+
+
+
+        <div class="shop-show-list">
+            <ul style="visibility:hidden;">
+                <li>
+                    <a href="../product/product.html"><img src="../images/white.png" data-src="../images/shop1.jpg" alt=""></a>
+                    <div class="shop-price">
+                        <!--<a href="../product/product.html">Golden Gold Plated ...</a>-->
+                        <span>$85.00</span>
+                    </div>
+                    <div class="collect-start">
+                        <i class="icon iconfont icon-start"></i>
+                    </div>
+                </li>
+                <li>
+                    <a href="../product/product.html"><img src="../images/white.png" data-src="../images/shop3.jpg" alt=""></a>
+                    <div class="shop-price">
+                        <span>$85.00</span>
+                    </div>
+                    <div class="collect-start">
+                        <i class="icon iconfont icon-start"></i>
+                    </div>
+                </li>
+                <li>
+                    <a href="../product/product.html"><img src="../images/white.png" data-src="../images/shop3.jpg" alt=""></a>
+                    <div class="shop-price">
+                        <span>$85.00</span>
+                    </div>
+                    <div class="collect-start">
+                        <i class="icon iconfont icon-start"></i>
+                    </div>
+                </li>
+                <li>
+                    <a href="../product/product.html"><img src="../images/white.png" data-src="../images/shop4.jpg" alt=""></a>
+                    <div class="shop-price">
+                        <span>$85.00</span>
+                    </div>
+                    <div class="collect-start">
+                        <i class="icon iconfont icon-start"></i>
+                    </div>
+                </li>
+                <li>
+                    <a href="../product/product.html"><img src="../images/white.png" data-src="../images/shop3.jpg" alt=""></a>
+                    <div class="shop-price">
+                        <span>$85.00</span>
+                    </div>
+                    <div class="collect-start">
+                        <i class="icon iconfont icon-start"></i>
+                    </div>
+                </li>
+                <li>
+                    <a href="../product/product.html"><img src="../images/white.png" data-src="../images/shop4.jpg" alt=""></a>
+                    <div class="shop-price">
+                        <span>$85.00</span>
+                    </div>
+                    <div class="collect-start">
+                        <i class="icon iconfont icon-start"></i>
+                    </div>
+                </li>
+                <li>
+                    <a href="../product/product.html"><img src="../images/white.png" data-src="../images/shop1.jpg" alt=""></a>
+                    <div class="shop-price">
+                        <!--<a href="../product/product.html">Golden Gold Plated ...</a>-->
+                        <span>$85.00</span>
+                    </div>
+                    <div class="collect-start">
+                        <i class="icon iconfont icon-start"></i>
+                    </div>
+                </li>
+                <li>
+                    <a href="../product/product.html"><img src="../images/white.png" data-src="../images/shop3.jpg" alt=""></a>
+                    <div class="shop-price">
+                        <span>$85.00</span>
+                    </div>
+                    <div class="collect-start">
+                        <i class="icon iconfont icon-start"></i>
+                    </div>
+                </li>
+                <li>
+                    <a href="../product/product.html"><img src="../images/white.png" data-src="../images/shop3.jpg" alt=""></a>
+                    <div class="shop-price">
+                        <span>$85.00</span>
+                    </div>
+                    <div class="collect-start">
+                        <i class="icon iconfont icon-start"></i>
+                    </div>
+                </li>
+                <li>
+                    <a href="../product/product.html"><img src="../images/white.png" data-src="../images/shop4.jpg" alt=""></a>
+                    <div class="shop-price">
+                        <span>$85.00</span>
+                    </div>
+                    <div class="collect-start">
+                        <i class="icon iconfont icon-start"></i>
+                    </div>
+                </li>
+                <li>
+                    <a href="../product/product.html"><img src="../images/white.png" data-src="../images/shop3.jpg" alt=""></a>
+                    <div class="shop-price">
+                        <span>$85.00</span>
+                    </div>
+                    <div class="collect-start">
+                        <i class="icon iconfont icon-start"></i>
+                    </div>
+                </li>
+                <li>
+                    <a href="../product/product.html"><img src="../images/white.png" data-src="../images/shop4.jpg" alt=""></a>
+                    <div class="shop-price">
+                        <span>$85.00</span>
+                    </div>
+                    <div class="collect-start">
+                        <i class="icon iconfont icon-start"></i>
+                    </div>
+                </li>
+                <li>
+                    <a href="../product/product.html"><img src="../images/white.png" data-src="../images/shop1.jpg" alt=""></a>
+                    <div class="shop-price">
+                        <!--<a href="../product/product.html">Golden Gold Plated ...</a>-->
+                        <span>$85.00</span>
+                    </div>
+                    <div class="collect-start">
+                        <i class="icon iconfont icon-start"></i>
+                    </div>
+                </li>
+                <li>
+                    <a href="../product/product.html"><img src="../images/white.png" data-src="../images/shop3.jpg" alt=""></a>
+                    <div class="shop-price">
+                        <span>$85.00</span>
+                    </div>
+                    <div class="collect-start">
+                        <i class="icon iconfont icon-start"></i>
+                    </div>
+                </li>
+                <li>
+                    <a href="../product/product.html"><img src="../images/white.png" data-src="../images/shop3.jpg" alt=""></a>
+                    <div class="shop-price">
+                        <span>$85.00</span>
+                    </div>
+                    <div class="collect-start">
+                        <i class="icon iconfont icon-start"></i>
+                    </div>
+                </li>
+                <li>
+                    <a href="../product/product.html"><img src="../images/white.png" data-src="../images/shop4.jpg" alt=""></a>
+                    <div class="shop-price">
+                        <span>$85.00</span>
+                    </div>
+                    <div class="collect-start">
+                        <i class="icon iconfont icon-start"></i>
+                    </div>
+                </li>
+                <li>
+                    <a href="../product/product.html"><img src="../images/white.png" data-src="../images/shop3.jpg" alt=""></a>
+                    <div class="shop-price">
+                        <span>$85.00</span>
+                    </div>
+                    <div class="collect-start">
+                        <i class="icon iconfont icon-start"></i>
+                    </div>
+                </li>
+                <li>
+                    <a href="../product/product.html"><img src="../images/white.png" data-src="../images/shop4.jpg" alt=""></a>
+                    <div class="shop-price">
+                        <span>$85.00</span>
+                    </div>
+                    <div class="collect-start">
+                        <i class="icon iconfont icon-start"></i>
+                    </div>
+                </li>
+                <li>
+                    <a href="../product/product.html"><img src="../images/white.png" data-src="../images/shop1.jpg" alt=""></a>
+                    <div class="shop-price">
+                        <!--<a href="../product/product.html">Golden Gold Plated ...</a>-->
+                        <span>$85.00</span>
+                    </div>
+                    <div class="collect-start">
+                        <i class="icon iconfont icon-start"></i>
+                    </div>
+                </li>
+                <li>
+                    <a href="../product/product.html"><img src="../images/white.png" data-src="../images/shop3.jpg" alt=""></a>
+                    <div class="shop-price">
+                        <span>$85.00</span>
+                    </div>
+                    <div class="collect-start">
+                        <i class="icon iconfont icon-start"></i>
+                    </div>
+                </li>
+                <li>
+                    <a href="../product/product.html"><img src="../images/white.png" data-src="../images/shop3.jpg" alt=""></a>
+                    <div class="shop-price">
+                        <span>$85.00</span>
+                    </div>
+                    <div class="collect-start">
+                        <i class="icon iconfont icon-start"></i>
+                    </div>
+                </li>
+                <li>
+                    <a href="../product/product.html"><img src="../images/white.png" data-src="../images/shop4.jpg" alt=""></a>
+                    <div class="shop-price">
+                        <span>$85.00</span>
+                    </div>
+                    <div class="collect-start">
+                        <i class="icon iconfont icon-start"></i>
+                    </div>
+                </li>
+                <li>
+                    <a href="../product/product.html"><img src="../images/white.png" data-src="../images/shop3.jpg" alt=""></a>
+                    <div class="shop-price">
+                        <span>$85.00</span>
+                    </div>
+                    <div class="collect-start">
+                        <i class="icon iconfont icon-start"></i>
+                    </div>
+                </li>
+                <li>
+                    <a href="../product/product.html"><img src="../images/white.png" data-src="../images/shop4.jpg" alt=""></a>
+                    <div class="shop-price">
+                        <span>$85.00</span>
+                    </div>
+                    <div class="collect-start">
+                        <i class="icon iconfont icon-start"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </section>
+    <footer class="clear">
+        <!--<div class="other-link">-->
+            <!--<a href=""><i class="icon iconfont icon-tian7_facebook"></i></a>-->
+            <!--<a href=""><i class="icon iconfont icon-google1"></i></a>-->
+            <!--<a href=""><i class="icon iconfont icon-Twitter"></i></a>-->
+            <!--<a href=""><i class="icon iconfont icon-icon_pinterest"></i></a>-->
+            <!--<a href=""><i class="icon iconfont icon-youtube"></i></a>-->
+        <!--</div>-->
+        <!--<div class="sign">-->
+            <!--<input type="text" name="email" placeholder="Enter Your Email Address">-->
+            <!--<a href="javascript:void(0)" class="btn">Sign Up</a>-->
+        <!--</div>-->
+
+        <div class="bottom-nav">
+            <ul>
+                <li class="item">
+                    <a href="javascript:void(0)">POLICY  <i class="icon iconfont icon-htbarrowright02"></i></a>
+                    <ol style="display: none" class="ol-nav">
+                        <li>
+                            <a href="javascript:void(0)">45</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">78</a>
+                        </li>
+                    </ol>
+                </li>
+
+                <li class="item">
+                    <a href="javascript:void(0)">CUSTOMER SERVICE <i class="icon iconfont icon-htbarrowright02"></i></a>
+                    <ol style="display: none">
+                        <li>
+                            <a href="">45</a>
+                        </li>
+                        <li>
+                            <a href="">78</a>
+                        </li>
+                    </ol>
+
+                </li>
+                <li class="item">
+                    <a href="javascript:void(0)">SHOPPING GUIDE<i class="icon iconfont icon-htbarrowright02"></i></a>
+                    <ol style="display: none">
+                        <li>
+                            <a href="">45</a>
+                        </li>
+                        <li>
+                            <a href="">78</a>
+                        </li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+
+        <div style="text-align: center;color: #727272;font-size: 0.8rem;font-family: Helvetica;">© 2017 Bemelos.com All Right Reserved.</div>
+    </footer>
+
+    <!--login-->
+    <div class="sign-content">
+        <div class="sign-from">
+            <div class="sign-in">
+                <span style="text-align: right;display: block;">
+                    <a href="javascript:void(0)" style="font-size: 20px;padding: 10px;" onclick="LoginShow('none')"><i class="icon iconfont icon-close"></i></a>
+                </span>
+                <p style="margin: 0px;">CREATE  AN  ACCOUNT</p>
+                <input type="email" placeholder="*EMAIL" name="UserEmail" class="UserEmail">
+                <input type="password" placeholder="*PASSWORD"  name="password1" class="password1">
+                <input type="password" placeholder="*Confirm Password" name="password2" class="password2">
+                <a href="javascript:void(0)" class="btn-sign btn-in">Sign In</a>
+            </div>
+
+            <div class="other-sign">
+                <span>Or</span>
+            </div>
+
+            <div class="sign-up">
+                <p>LOGIN <a href="" style="color: #3b5997"><i class="icon iconfont icon-tian7_facebook"></i></a>
+                    <a href="" style="color: #d44433"><i class="icon iconfont icon-google"></i></a>
+                </p>
+                <input type="email" placeholder="*EMAIL" name="email" class="email">
+                <input type="password" placeholder="*PASSWORD" name="password" class="password">
+                <a href="../login/forgot-password.html" class="forgot-password">Forgot your password?</a>
+                <a href="javascript:void(0)" class="btn-sign btn-up">Sign Up</a>
+            </div>
+        </div>
+    </div>
+    <div class="background">
+    </div>
+
+
+    <!--跳到头部-->
+    <div class="go-header">
+        <a href="javascript:scrollTo(0,0)"><i class="icon iconfont icon-top"></i></a>
+    </div>
+
+
+</div>
+
+<script >
+    require(['../lib/base.js'])
+</script>
+<script>
+    require(['../lib/input.js'])
+</script>
+
+
+
+
+<!--图片预加载-->
+<script type="text/javascript" charset="utf-8">
+
+    var w=window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
+
+
+    if(w>768){  // <section>最大768px
+      w=768;
+    }
+
+
+
+    var BoxSize=w*0.5*0.98;
+    $('.shop-show-list ul li img').each(function () {
+        // $(this).attr('src','../images/white.png');
+
+
+        $(this).css({'width':BoxSize,'height':BoxSize/3*4});
+
+     
+    });
+    $('.shop-show-list ul').css('visibility','visible');
+    $(function() {
+        $(".shop-show-list img").lazyload({
+//            placeholder : "../images/loading.gif",
+            placeholder : "../images/white.png",
+            effect: "fadeIn"
+        });
+    });
+
+
+   
+</script>
+
+<script>
+
+    //       二级菜单展开
+    $('.select-item > a').each(function () {
+        this.addEventListener("click",function(event){
+            $(this).siblings().slideToggle();
+            $(this).parent().addClass('auto-height')
+            if($(this).children('i').hasClass('icon-add')){
+                $(this).children('i').removeClass('icon-add').addClass('icon-subtract');
+                $(this).css('color','#8f9cb7');
+            }else {
+                $(this).children('i').removeClass('icon-subtract').addClass('icon-add');
+                $(this).css('color','#333')
+            }
+        })
+    })
+
+    function LoginShow(type) {
+        $('.sign-content').css('display',type);
+        $('.background').css('display',type);
+        if(type=='block'){
+            $('html').addClass('no-scroll');
+        }else {
+            $('html').removeClass('no-scroll');
+        }
+    }
+    $('.collect-start').each(function () {
+        this.addEventListener("click",function(event){
+            var a='login';
+            if(a!='login success'){
+                       LoginShow('block')
+            }
+            if($(this).children('i').hasClass('icon-start')){
+                $(this).children('i').removeClass('icon-start').addClass('icon-start1');
+            }else {
+                $(this).children('i').removeClass('icon-start1').addClass('icon-start');
+            }
+        })
+    })
+
+    $('.select-all').click(function () {
+
+        $('.select-box').css({'left':'0px','-webkit-transition':'all 0.5s'});
+        $('html').addClass('no-scroll');
+        $('.background').css('display','block');
+
+    })
+
+    $('.select-box').css('min-height',document.documentElement.clientHeight);
+    $('.select-all-content').css('height',document.documentElement.clientHeight-document.getElementById('select-btn').clientHeight);
+
+    $('.select-type .select-item span').each(function () {
+        this.addEventListener('click',function () {
+
+            if( $(this).hasClass('this-select')){
+                $(this).removeClass('this-select');
+            }else {
+                $(this).addClass('this-select');
+                $(this).siblings('span').removeClass('this-select');
+            }
+
+        })
+    })
+
+//重置选择
+    $('.select-reset').click(function () {
+
+        $('.select-type .select-item span').each(function () {
+                $(this).removeClass('this-select');
+        })
+    })
+
+//    商品筛选隐藏内容
+    $('.select-results').click(function () {
+        $('.select-box').css({'left':'-80%','-webkit-transition':'all 0.5s'});
+        $('html').removeClass('no-scroll');
+        $('.background').css('display','none');
+    })
+
+//    点击黑色背景框 商品筛选隐藏
+    $('.background').click(function () {
+       $('.select-box').css({'left':'-80%','-webkit-transition':'all 0.5s'});
+       $('html').removeClass('no-scroll');
+       $('.background').css('display','none');
+   })
+
+//商品筛选
+    var i=1;
+    $('.shop-select ul li a').each(function () {
+      $(this).click(function () {
+          $(this).addClass('active').parent('li').siblings('li').children('a').removeClass('active');
+
+          if($(this).find('span:first-child').text()=='Price'){
+
+             if(i%2==1){
+                 $('.icon-icon-arrow-up').css('color','#a48156');
+                 $('.icon-icon-arrow-down').css('color','black');
+             }else {
+                 $('.icon-icon-arrow-up').css('color','black');
+                 $('.icon-icon-arrow-down').css('color','#a48156');
+             }
+            ++i;
+          }else {
+              $('.icon-icon-arrow-up').css('color','black');
+              $('.icon-icon-arrow-down').css('color','black');
+              i=1;
+          }
+      })
+
+    })
+
+
+// 返回顶部位置
+    window.onscroll=function() {
+        var window_top = $(this).scrollTop();
+        if(window_top>=10){
+            $('.go-header').css('display','block');
+        }else {
+            $('.go-header').css('display','none');
+        }
+            $('.select-box').css('top',window_top);
+        }
+
+</script>
+</body>
+</html>

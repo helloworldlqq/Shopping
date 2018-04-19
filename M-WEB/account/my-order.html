@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimal-ui">
+    <title>Account | Ezpopsy.com</title>
+    <link rel="stylesheet" href="../font-icon/iconfont.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/account.css">
+    <script src="../lib/jquery-1.7.2.min.js"></script>
+</head>
+<body>
+<div class="wrapprer">
+    <header>
+        <div class="header-box" id="header-box">
+            <div class="menu">
+                <i id="show-menu" class="icon iconfont icon-icon-menu"></i>
+            </div>
+            <div class="menu-content">
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="../shops/shop-list.html">SHOP ALL</a></li>
+                    <li class="item">
+                        <a href="javascript:void(0)">NECKLACES <i class="icon iconfont icon-htbarrowright02"></i> </a>
+                        <ol style="display: none">
+                            <li>
+                                <a href="">JRecommend</a>
+                            </li>
+                            <li>
+                                <a href="">HotSale</a>
+                            </li>
+                            <li>
+                                <a href="">NewArrival</a>
+                            </li>
+                            <li>
+                                <a href="">HighPrice</a>
+                            </li>
+                            <li>
+                                <a href="">LowPrice</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:void(0)">RINGS<i class="icon iconfont icon-htbarrowright02"></i></a>
+                        <ol style="display: none">
+                            <li>
+                                <a href="../shops/shop-list.html">JRecommend</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">HotSale</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">NewArrival</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:void(0)">EARRINGS <i class="icon iconfont icon-htbarrowright02"></i></a>
+                        <ol style="display: none">
+                            <li>
+                                <a href="../shops/shop-list.html">JRecommend</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">HotSale</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">NewArrival</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:void(0)">BRACELETS <i class="icon iconfont icon-htbarrowright02"></i></a>
+                        <ol style="display: none">
+                            <li>
+                                <a href="../shops/shop-list.html">JRecommend</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">HotSale</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">NewArrival</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:void(0)">NEW ARRIVALS <i class="icon iconfont icon-htbarrowright02"></i></a>
+                        <ol style="display: none">
+                            <li>
+                                <a href="../shops/shop-list.html">JRecommend</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">HotSale</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">NewArrival</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li><a href="../account/account.html" style="color:#727272;">MY ACCOUNT</a></li>
+                    <li><a href="../help/help.html" style="color:#727272;">HELP</a></li>
+                    <li><a href="" style="color:#727272;">FEEDBACK</a></li>
+                    <li> &nbsp;</li>
+                    <li class="user-sign clear">
+                        <a href="../login/login.html">SIGN IN </a>
+                        <a href="../login/login.html">REGISTER</a>
+                        <div class="clear"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="logo">
+                <span></span>
+            </div>
+            <div class="cart">
+                <span><a href="../Collect/Collect.html"><i class="icon iconfont icon-start1"></i></a></span>
+                <span><a href="../bags/carts.html"><i class="icon iconfont icon-shoppingbag"></i> <label id="bag-number">2</label> </a></span>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="account-content">
+            <div class="home-nav">
+                <span><a href="../index.html">Home</a></span>
+                <span><i class="icon iconfont icon-xiexian"></i></span>
+                <span><a href="account.html">Account</a></span>
+                <span><i class="icon iconfont icon-xiexian"></i></span>
+                <span><a href="#">My Order</a></span>
+            </div>
+            <div class="account-describe">
+                <div>Welcome, xxxxxx@ezpopsy.net</div>
+                <span>Everything you need to track your order, update your </span>
+                <span>address book, edit your account information and more is right here.</span>
+            </div>
+
+            <div class="back">
+                <i class="icon iconfont icon-zuojiantou"></i><a href="javascript:history.back();">GO MY ACCOUNT</a>
+            </div>
+            <div class="page-title">
+                <p>My Order </p>
+                <span></span>
+            </div>
+
+            <div class="order-nav">
+                <a href="javascript:void(0)" class="order-active" id="order-all">All ORDER</a>
+                <a href="javascript:void(0)" style="width: 40%" id="order-pending">PENDING PAYMENT</a>
+                <a href="javascript:void(0)" id="order-paid">PAID PAYMENT</a>
+            </div>
+
+            <!--all order-->
+            <div class="order-all">
+               <div class="order-box">
+                   <div class="order-img">
+                         <img src="../images/product1.jpg" alt="">
+                     </div>
+                   <ul>
+                        <li>Order Date : Apr 11,2017 </li>
+                        <li>Order Number : Order NO.8170412499316 </li>
+                        <li>Quantity : 1  </li>
+                        <li>Total : $ 96.00  </li>
+                        <li class="order-view">Order Status : <a href="view-order.html" >View Order</a></li>
+                        <!--<li ><a href="../pay/pay-method.html" class="order-pay">Pay Now</a></li>-->
+                    </ul>
+                   <div class="clear"></div>
+               </div>
+
+
+                <div class="account-pay">
+                    <a href="../pay/pay-method.html">Pay Now</a>
+                </div>
+            </div>
+
+            <!--pending payment-->
+            <div class="order-pending" style="display: none">
+                <div class="order-box">
+                    <div class="order-img">
+                        <img src="../images/product1.jpg" alt="">
+                    </div>
+                    <ul>
+                        <li>Order Date : Apr 11,2017 </li>
+                        <li>Order Number : Order NO.8170412499316 </li>
+                        <li>Quantity : 1  </li>
+                        <li>Total : $ 96.00  </li>
+                        <li class="order-view">Order Status : <a href="view-order.html" >View Order</a></li>
+                        <!--<li ><a href="../pay/pay-method.html" class="order-pay">Pay Now</a></li>-->
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+
+
+                <div class="account-pay">
+                    <a href="../pay/pay-method.html">Pay Now</a>
+                </div>
+            </div>
+
+            <!--paid payment-->
+            <div class="order-paid" style="display: none">
+                <div class="order-box">
+                    <div class="order-img">
+                        <img src="../images/product1.jpg" alt="">
+                    </div>
+                    <ul>
+                        <li>Order Date : Apr 11,2017 </li>
+                        <li>Order Number : Order NO.8170412499316 </li>
+                        <li>Quantity : 1  </li>
+                        <li>Total : $ 96.00  </li>
+                        <li class="order-view">Order Status : <a href="#" >waiting for delivery</a></li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+
+
+
+            <!--  order-null  -->
+            <div class="order-null" style="display: none">
+                 <p>Sorry, No Find ...</p>
+                 <a href="../index.html">Continue Shopping</a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer class="clear">
+        <!--<div class="other-link">-->
+            <!--<a href=""><i class="icon iconfont icon-tian7_facebook"></i></a>-->
+            <!--<a href=""><i class="icon iconfont icon-google1"></i></a>-->
+            <!--<a href=""><i class="icon iconfont icon-Twitter"></i></a>-->
+            <!--<a href=""><i class="icon iconfont icon-icon_pinterest"></i></a>-->
+            <!--<a href=""><i class="icon iconfont icon-youtube"></i></a>-->
+        <!--</div>-->
+
+        <!--<div class="sign">-->
+            <!--<input type="text" name="email" placeholder="Enter Your Email Address">-->
+            <!--<a href="javascript:void(0)" class="btn">Sign Up</a>-->
+        <!--</div>-->
+
+        <div class="bottom-nav">
+            <ul>
+                <li class="item">
+                    <a href="javascript:void(0)">POLICY  <i class="icon iconfont icon-htbarrowright02"></i></a>
+                    <ol style="display: none" class="ol-nav">
+                        <li>
+                            <a href="javascript:void(0)">45</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">78</a>
+                        </li>
+                    </ol>
+                </li>
+
+                <li class="item">
+                    <a href="javascript:void(0)">CUSTOMER SERVICE <i class="icon iconfont icon-htbarrowright02"></i></a>
+                    <ol style="display: none">
+                        <li>
+                            <a href="">45</a>
+                        </li>
+                        <li>
+                            <a href="">78</a>
+                        </li>
+                    </ol>
+
+                </li>
+                <li class="item">
+                    <a href="javascript:void(0)">SHOPPING GUIDE<i class="icon iconfont icon-htbarrowright02"></i></a>
+                    <ol style="display: none">
+                        <li>
+                            <a href="">45</a>
+                        </li>
+                        <li>
+                            <a href="">78</a>
+                        </li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+
+        <div class="bottom-text" style="text-align: center;color: #727272;font-size: 0.8rem;font-family: Helvetica;margin-bottom: 40px;">© 2017 Bemelos.com All Right Reserved.</div>
+    </footer>
+
+</div>
+<script src="../lib/base.js"></script>
+<script>
+    $('.order-nav a').each(function () {
+        $(this).click(function () {
+            $(this).addClass('order-active').siblings().removeClass('order-active');
+
+              var OrderArray=['order-all','order-pending','order-paid'];
+
+               for(var i=0;i<=OrderArray.length;i++){
+                   $('.'+OrderArray[i]).css('display','none');
+
+                   if(OrderArray[i]==$(this).attr('id')){
+                       $('.'+OrderArray[i]).css('display','block');
+                      if($(this).attr('id')==OrderArray[2] ){
+                          $('.bottom-text').css('margin-bottom','0px');
+                      }else {
+                          $('.bottom-text').css('margin-bottom','40px');
+                      }
+                   }
+
+               }
+        })
+    })
+</script>
+</body>
+</html>

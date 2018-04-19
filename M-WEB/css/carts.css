@@ -1,0 +1,235 @@
+.bag{
+    margin-bottom: 40px;
+}
+.shopping-status{
+    width: 96%;
+    margin: 30px auto;
+}
+
+.shopping-status table{
+    width: auto;
+    margin: auto;
+}
+.type-number{
+    width: 20%;
+}
+.type-number span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f6f6f6;
+    text-align: center;
+    line-height: 30px;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+    behavior: url(PIE/ie-css3.htc);
+    font-size: 1rem;
+}
+.type-number i{
+    font-size: 0.875rem;
+}
+.type-hr span i{
+    color: #8f9cb7;
+    font-size: 0.875rem;
+}
+.type-hr{
+    width: 6%;
+    align: center;
+}
+.type-hr span{
+ text-align: center;
+}
+
+.type-title td{
+    font-family: Verdana;
+    font-size: 0.75rem;
+    color: #959595;
+    text-align: center;
+    padding-top: 10px;
+    /*white-space: nowrap;*/
+}
+.type-number .type-now-number{
+    background-color: #a48156;
+    color: white;
+}
+.type-now-title{
+    color: #8f9cb7;
+}
+
+
+
+
+
+
+.bags-list{
+    border-top: 1px solid #e8e8e8;
+    width: 96%;
+    margin: auto;
+}
+
+.shop-box{
+     border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.shop-box-img{
+    width: 75%;
+    margin: auto;
+}
+.shop-box-img a{
+    display: block;
+    width: 100%;
+}
+.shop-box-img a img{
+    display: block;
+    border: none;
+    width: 100%;
+}
+.shop-box ul{
+    display: block;
+    margin: 30px auto;
+
+}
+.shops-name{
+    /*color: #474747;*/
+    font-size: 0.85rem;
+    font-family: Helvetica;
+    margin: 10px 0;
+}
+.shops-attr{
+    color: #474747;
+    font-size: 0.85rem;
+    font-family: Helvetica;
+    margin: 10px 0;
+}
+.shops-attr span:last-child{
+    margin-left: 5px;
+}
+.num a{
+    padding: 8px;
+}
+.num input{
+    width: 30px;
+    font-size: 1rem;
+    color: #727272;
+    border: none;
+    text-align: center;
+}
+.edit{
+    margin:20px 0;
+}
+.edit a{
+    display: inline-block;
+    text-decoration: underline;
+    padding: 10px 0;
+    font-size: 0.875rem;
+    font-family: Helvetica;
+    float: left;
+    color: #4e4d4d;
+}
+.shop-total{
+    margin: 30px auto;
+}
+.shop-total ul li{
+    display: block;
+    font-size: 0.875rem;
+    font-family: Arial;
+    margin:10px 0;
+    color: #333333;
+}
+.shop-total-text{
+    text-align: center;
+    padding-bottom: 8px;
+}
+.shop-total ul li span:first-child{
+    text-align: left;
+}
+.shop-total ul li span:last-child{
+   float: right;
+}
+.shop-hr{
+    display: block;
+    border-bottom: 1px dashed #959595;
+    padding: 0;
+    height: 1px;
+    margin: 15px 0!important;
+
+}
+
+
+.pay-code input{
+    display: inline-block;
+    width: 65%;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    border: 1px solid #959595;
+    text-indent: 5px;
+    padding: 0 3px;
+    margin: 0 !important;
+    box-sizing: border-box;
+    float: left;
+
+}
+.pay-code a{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 35%;
+    border: 1px solid #959595;
+    padding: 0;
+    border-left: none;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.shops-btn a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-family: Arial;
+}
+.shops-btn img{
+    display: inline-table;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+/*null-bag*/
+.null-bag{
+    width: 80%;
+    margin:40px auto;
+    text-align: center;
+
+}
+.null-bag p{
+    font-size: 0.85rem;
+    line-height: 20px;
+}
+.null-bag a{
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    font-size: 0.9rem;
+    font-family: Arial;
+    margin-top: 30px;
+}

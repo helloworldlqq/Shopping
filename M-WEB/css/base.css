@@ -1,0 +1,604 @@
+@font-face {
+    font-family: "Helvetica";
+    src: url('helvetica/Helvetica.otf'),
+          url('Helvetica/Helvetica.otf') format('truetype');
+}
+
+body,div,ul,ol,li,h1,h2,h3,h4,h5,h6,span,img,a,input,select,textarea,dl,dd{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-size: 0.75rem;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+a,input:focus{
+    outline: none;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+a{
+    -webkit-tap-highlight-color:transparent;
+}
+
+.clear{
+    clear: both;
+}
+
+.no-scroll{
+    overflow: hidden !important;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.header-box i{
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+}
+
+header{
+    height: 55px;
+   
+}
+.header-box{
+    height: 55px;
+    line-height: 55px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+    z-index: 10;
+    border-bottom: 1px solid #e8e8e8;
+
+}
+.menu{
+    float: left;
+    width: 20%;
+    height: 55px;
+    line-height: 55px;
+}
+.menu i{
+    padding-left: 0.5em;
+    width: 50%;
+    font-size: 16px !important;
+
+}
+
+/*隐藏菜单*/
+.menu-content{
+    /*display: none;*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+    overflow-y: auto;
+    top: 55px;
+    left: -100%;
+    border-top: 1px solid #8f9cb7;
+    font-family: Helvetica;
+    z-index: 99;
+}
+.menu-content ul{
+    margin-bottom: 50px;
+}
+.menu-content ul > li{
+       height: 50px;
+       line-height: 50px;
+       margin: 0 2%;
+       border-bottom: 1px solid #c7cddb;
+}
+.menu-content ul > li a{
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding-left: 1rem;
+    font-size: 0.875rem;
+}
+.menu-content ul > li a i{
+    float: right;
+    margin-right: 1rem;
+    color: #8f9cb7;
+    font-size: 1rem;
+}
+.user-sign a{
+    padding-left: 0 !important;
+    display: inline-block;
+    float: left;
+    width: 49.5%;
+    text-align: center;
+}
+.user-sign a:first-child{
+    border-right: 1px solid #c7cddb;
+}
+.item ol li{
+    border-top: 1px solid #c7cddb;
+}
+.item ol li a{
+    display: block;
+    padding-left: 2rem !important;
+    font-size: 0.825rem;
+    color: #727272;
+}
+.item ol li a:active{
+    color: #a48156;
+}
+
+
+
+
+.logo{
+    float: left;
+    width: 60%;
+    height: 55px;
+    line-height: 55px;
+
+}
+.logo span{
+    background: url(../images/logo.png) no-repeat scroll 0px 9px transparent;
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    height: 55px;
+    display: block;
+}
+.cart{
+    width: 20%;
+    float: right;
+    height: 55px;
+    line-height: 55px;
+}
+.cart span{
+     width: 50%;
+     display: inline-block;
+     float: left;
+     /*text-align: center;*/
+
+}
+.cart span a{
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    /*border: 1px solid #8f9cb7;*/
+    position: relative;
+}
+.cart span i{
+
+}
+.cart span a label{
+    /*display: block;*/
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    font-size: 0.825rem;
+    color: #8f9cb7;
+    width: 1.2rem;
+    height:1.2rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.35rem;
+    background-color: #a48156;
+    color: white;
+}
+
+
+footer{
+    background-color: #f6f6f6;
+    padding: 30px 0px;
+}
+.other-link{
+    width: 80%;
+    margin: auto;
+}
+.other-link a{
+    color: black;
+
+}
+.other-link i{
+    display: inline-block;
+    text-align: center;
+    width: 10%;
+    font-size: 2rem;
+    margin: 0 4.5%;
+}
+.sign{
+    width: 96%;
+    margin: 30px auto;
+}
+.sign input{
+    width: 95%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-indent: 10px;
+     background-color: white;
+     border: none;
+    padding: 3px 2.5%;
+}
+.sign a{
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+a,input:focus{
+    outline: none;
+}
+
+
+.bottom-nav{
+    width: 96%;
+    margin: 10px auto 30px auto;
+    font-family: Helvetica;
+}
+.bottom-nav ul > li{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #c2c9d6;
+}
+.bottom-nav ul li:first-child{
+    border-top: 1px solid #c2c9d6;
+}
+.bottom-nav ul li > a{
+    display: block;
+    font-size: 0.875rem;
+    color: #727272;
+    text-decoration: none;
+    padding-left: 1rem;
+}
+.bottom-nav ul li i{
+    float: right;
+    margin-right: 0.875rem;
+    color: #8f9cb7;
+}
+
+.auto-height{
+    height: auto !important;
+}
+
+.bottom-nav ul li ol li{
+    height: 45px;
+    line-height: 45px;
+}
+.bottom-nav ul li ol li:last-child{
+    border-bottom: none;
+}
+.bottom-nav ul li ol li a{
+    display: block;
+    padding-left: 2rem !important;
+    font-size: 0.825rem;
+
+}
+
+
+
+
+
+.home-nav span{
+    /*padding-right: 5px;*/
+}
+.home-nav span a{
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    font-family: Helvetica;
+}
+.home-nav span:last-child a{
+    color: #a48156;
+}
+.page-title{
+    margin: 40px auto;
+    text-align: center;
+}
+.page-title p{
+    font-size: 1.625rem;
+    font-family: Helvetica;
+}
+.page-title span{
+    display: block;
+    width: 15%;
+    margin: 30px auto;
+    border-bottom: 1px solid #a48156;
+}
+.back{
+    margin: 10px 0;
+}
+.back a{
+    display: inline-block;
+    padding: 10px 0;
+    font-family: Helvetica;
+    font-size: 0.8125rem;
+    text-decoration: underline;
+    color: #969896;
+}
+
+
+
+
+/*edit-box*/
+.Edit-box{
+    position: fixed;
+    width: 75%;
+    margin:auto;
+    z-index: 30;
+    top:0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    background-color: white;
+    height:78%;
+    overflow-y: auto;
+    padding: 20px 5%;
+    display: none;
+}
+
+.Edit-box .edit-img {
+    width: 60%;
+    margin:30px auto;
+}
+.Edit-box .edit-img img{
+    display: block;
+    width: 100%;
+}
+.Edit-box ul li{
+    margin: 15px 0;
+    font-family: Helvetica;
+}
+.edit-shop-name{
+    font-size:0.875rem;
+
+}
+.edit-price{
+    font-size: 1.5rem;
+
+}
+.edit-change{
+    margin-top: 5px;
+}
+.edit-change span{
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    margin-right: 10px;
+    border: 1px solid white;
+    background-color: #727272;
+}
+.edit-size{
+    font-size: 0.875rem;
+    margin-top: 5px;
+}
+.edit-size a{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 0.875rem!important;
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+    line-height: 1.7rem;
+    border: 1px solid white;
+}
+.size-active{
+    color: #a48156;
+    border-color: #a48156!important;
+}
+
+.edit-up a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 5px 0;
+    font-size: 1rem;
+    font-family: Arial;
+}
+.edit-view{
+    margin-top: 20px!important;
+}
+.edit-view a{
+    font-size: 0.85rem;
+    text-decoration: underline;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
+
+.background{
+    position: fixed;
+    height: 100%;
+    left:0px;
+    top:0px;
+    background-color:#000;
+    width:100%;  /*宽度设置为100%，这样才能使隐藏背景层覆盖原页面*/
+    filter:alpha(opacity=30);  /*设置透明度为60%*/
+    opacity:0.3;  /*非IE浏览器下设置透明度为60%*/
+    z-Index:25;
+    display: none;
+}
+
+
+
+
+
+
+/*滚动*/
+
+.alse-like p{
+    font-size: 0.875rem;
+}
+
+.alse-like{
+    border-top: 1px solid #e8e8e8;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    /*padding: 20px;*/
+}
+.slide{
+    width: 100%;
+    min-height: 180px;
+    overflow: hidden;
+    position: relative;
+
+}
+.slide .img{
+    overflow: hidden;
+    position: absolute;
+    transition: width 0.4s,height 0.4s,top 0.4s,left 0.4s,z-index 0.4s;
+}
+.slide .img img{
+    width: calc(100% - 14px);
+    height: calc(100% - 14px);
+    margin: 7px;
+}
+.slide .img1{
+    width: 40%;
+    height: 40%;
+    top: 30%;
+    left: -50%;
+    z-index: 1;
+}
+.slide .img2{
+    width: 60%;
+    height: 60%;
+    top: 20%;
+    left: -20%;
+    z-index: 2;
+}
+.slide .img3{
+    width: 80%;
+    /*height: 80%;*/
+    top: 10%;
+    left: 10%;
+    z-index: 3;
+}
+.slide .img4{
+    width: 60%;
+    height: 60%;
+    top: 20%;
+    left: 60%;
+    z-index: 2;
+}
+.slide .img5{
+    width: 40%;
+    height: 40%;
+    top: 30%;
+    left: 110%;
+    z-index: 1;
+}
+.slide-bt{
+    position: absolute;
+    left: 60%;
+    bottom: 5%;
+    z-index: 8;
+}
+.slide-bt span{
+    width: 10px;
+    height: 10px;
+    background: #c9caca;
+    float: left;
+    margin: 5px;
+    border-radius: 50%;
+}
+.slide .slide-bt .on{
+    background: #ffd200;
+}
+
+
+
+/*remove-box*/
+.remove-box{
+    position: fixed;
+    width: 85%;
+    margin:auto;
+    z-index: 30;
+    top:0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    background-color: white;
+    height: 120px;
+    overflow-y: auto;
+    padding:20px;
+    display: none;
+}
+.close{
+    float: right;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.remove-box p{
+    font-size: 0.75rem;
+    font-family: Helvetica;
+    margin: 10px auto;
+}
+.remove-box > a{
+    display: inline-block;
+    width: 45%;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    margin: 10px 2%;
+    font-size: 0.95rem;
+    font-family: Arial;
+}
+
+
+
+/*paypal付款，选择付款方式，固定在底部*/
+.pay-but{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
+    line-height: 50px;
+}
+.pay-but a{
+    display: inline-block;
+    float: left;
+    width: 50%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 1rem;
+}
+.pay-but a:first-child{
+    background-color: black;
+    color: white;
+}
+.pay-but a:last-child{
+    background-color: #ffc439;
+}
+.pay-but a img{
+    display: inline-table;
+    vertical-align: middle;
+}
+
+
+
+
+@media (min-width: 720px){
+
+    section,footer{
+        max-width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

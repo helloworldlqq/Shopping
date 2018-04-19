@@ -1,0 +1,92 @@
+.collect{
+    margin-bottom: 40px;
+}
+.collect-list{
+    width: 96%;
+    margin:0 auto;
+    border-bottom: 1px solid #ccc;
+    /*padding: 5% 10%;*/
+}
+.page-title + .collect-list{
+    border-top: 1px solid #ccc;
+}
+
+.collect-box{
+    margin: 30px auto;
+    display: block;
+    overflow: hidden;
+    /*width: 83.3%;*/
+}
+.collect-box img{
+    width: 75%;
+    display: block;
+    border: none;
+    margin: auto;
+}
+.collect-box ul{
+    display: block;
+    margin-top: 20px;
+}
+.collect-name{
+    color: #474747;
+    font-size: 0.85rem;
+    font-family: Helvetica;
+    margin: 10px 0;
+}
+.collect-attr{
+    color: #474747;
+    font-size: 0.85rem;
+    font-family: Helvetica;
+    margin: 10px 0;
+}
+.collect-change{
+    margin: 15px 0;
+    font-size: 0.8125rem;
+    display: block;
+    height: 36px;
+    line-height: 36px;
+}
+.collect-delete{
+    text-decoration: underline;
+    padding: 5px 0;
+    color: black;
+}
+
+
+.collect-add{
+    float: right;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    width: 70%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+
+/*null-bag*/
+.null-bag{
+    width: 80%;
+    margin:40px auto;
+    text-align: center;
+
+}
+.null-bag p{
+    font-size: 0.85rem;
+    line-height: 20px;
+    color: black;
+}
+.null-bag a{
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    font-size: 0.9rem;
+    font-family: Arial;
+    margin-top: 30px;
+}

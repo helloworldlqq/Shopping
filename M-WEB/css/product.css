@@ -1,0 +1,340 @@
+.product{
+   width: 96%;
+   margin: 10px auto;
+}
+.product-img{
+    display: block;
+    width: 100%;
+}
+.swiper-slide img{
+    display: block;
+    width: 100%;
+}
+.product ul{
+    margin: 20px auto;
+    display: block;
+}
+.product ul li{
+    display: block;
+}
+.product-name{
+    font-size: 0.875rem;
+    font-family: Helvetica;
+    margin: 5px 0;
+    font-weight:normal;
+}
+
+.product-sku{
+    color: #959595;
+    font-size: 0.7rem;
+    margin: 5px 0;
+}
+.product-start i{
+    color: #959595;
+    font-size: 0.8rem;
+}
+.product-start a{
+    color: #959595;
+    text-decoration: underline;
+    font-size: 0.7rem;
+}
+.product-price{
+    font-size: 1.5rem;
+    font-family: Helvetica;
+    margin: 15px 0;
+}
+.product-color{
+    font-size: 0.7rem;
+    margin: 10px 0;
+}
+.product-color-change span{
+    display: inline-block;
+    width: 1.6rem;
+    height: 1.6rem;
+    border: 1px solid white;
+    margin-top: 5px;
+    margin-right: 8px;
+    background-color: #959595;
+}
+
+.this-product-color{
+    border-color: #a48156!important;
+}
+.product-size{
+    font-size: 0.7rem;
+    margin: 10px 0;
+}
+.product-size-change > a{
+    font-size: 0.7rem;
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 8px;
+    /*padding: 10px;*/
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border: 1px solid white;
+}
+.product-num{
+    font-size: 0.7rem;
+    display: block;
+    margin: 10px 0;
+}
+.product-num i{
+    font-size: 0.7rem;
+}
+.product-num a{
+    padding: 5px;
+    margin: 0 5px;
+}
+.product-num input{
+    width: 30px;
+    font-size: 0.75rem;
+    color: #727272;
+    border: none;
+    text-align: center;
+}
+.product-add{
+    display: block;
+    margin: 20px 0;
+}
+.product-add a:first-child{
+    display: inline-block;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}
+.product-add a:last-child{
+    text-decoration: underline;
+    display: inline-block;
+    text-align: center;
+    font-size: 0.7rem;
+    margin-top: 20px;
+}
+.product-text-list{
+    margin-top: 30px;
+}
+
+.product-text-list ul li{
+    border-bottom: 1px solid #e8e8e8;
+    font-size: 0.8125rem;
+    font-family: Helvetica;
+    /*padding:0 1rem;*/
+    color: #333;
+}
+.product-text-list ul li:first-child{
+    border-top: 1px solid #e8e8e8;
+}
+.product-text-list ul li > a{
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    color: #696868;
+}
+.product-text-list ul li > a i{
+    float: right;
+    font-size: 0.8125rem;
+}
+.product-text dl{
+    padding: 10px 5px;
+}
+.product-text dl dd{
+    font-size: 0.8125rem;
+    color: #696868;
+    padding: 5px 0;
+
+}
+.share{
+    margin: 16px 0;
+    height: 32px;
+    line-height: 32px;
+    font-size: 1rem;
+
+}
+.share div{
+   display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    float: left;
+}
+.share i{
+    margin: 0 8px;
+    font-size: 1.5rem;
+}
+
+
+/*评论区*/
+.reviews{
+    margin-bottom: 40px;
+}
+
+.reviews .page-title p{
+    font-size: 0.875rem !important;
+}
+.reviews .page-title p a{
+    float: right;
+    margin-right: 5%;
+
+}
+.reviews .page-title p a i{
+   font-size: 0.875rem;
+
+}
+.reviews-box{
+    width: 96%;
+    margin: auto;
+}
+.reviews-text{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0px;
+}
+.reviews-text p{
+    margin: 5px 0;
+    font-size:1rem;
+    font-family: Helvetica;
+    color: black;
+}
+.reviews-text span{
+    display: block;
+    margin: 8px 0px;
+}
+.reviews-start{
+    margin-bottom: 10px;
+}
+.reviews-start span i{
+    padding: 1px;
+}
+
+.reviews-text textarea{
+    display: block;
+    width: 100%;
+    outline: none;
+    /*color: #727272;*/
+    text-indent: 5px;
+    font-size: 0.875rem;
+    font-family: Helvetica;
+    resize : none;
+    border: none;
+}
+.reviews-submit{
+    width: 60%;
+    float: right;
+    text-align: center;
+    margin: 5px 0;
+}
+.reviews-submit span{
+    display: block;
+    font-size: 0.8rem;
+    padding: 3px 0;
+}
+.reviews-submit a{
+    display: block;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+
+
+.reviews-content{
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0px;
+}
+.reviews-content .reviews-content-text{
+    margin: 5px 0;
+    font-size:1rem;
+    font-family: Helvetica;
+    color: black;
+}
+.reviews-content .reviews-content-text span{
+    float: right;
+    color: #727272;
+}
+.reviews-content > span{
+    display: block;
+    padding-left: 1rem;
+    color: #105381;
+}
+.reviews-start-num i{
+    font-size: 0.75rem;
+}
+.reviews-start-num label{
+    margin-left: 10px;
+    color: #727272;
+}
+.reviews-about{
+    font-size: 0.8125rem;
+    font-family: Helvetica;
+    color: #727272;
+    line-height: 25px;
+    margin-top: 8px;
+}
+
+
+.sign-content{
+    position: fixed;
+    width: 85%;
+    margin: auto;
+    z-index: 30;
+    top:60px;
+    left: 0;
+    right:0;
+    bottom: 0;
+    background-color: white;
+    height: auto;
+    overflow-y: auto;
+    padding-bottom: 40px;
+    display: none;
+}
+.sign-from{
+    margin: 20px auto;
+}
+
+
+
+/*加入购物车 固定*/
+.add-cart-but{
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    z-index: 10;
+}
+.add-to-car{
+    display: block;
+    width: auto;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #a48156;
+    color: white;
+    font-size: 1rem;
+
+}
+.add-to-collection{
+    display: block;
+    width: 22%;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #fff;
+    float: left;
+}
+.add-to-collection i{
+    font-size: 25px;
+}

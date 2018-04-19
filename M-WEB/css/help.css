@@ -1,0 +1,132 @@
+.help{
+    width: 96%;
+    margin: auto;
+    font-family: Helvetica;
+}
+
+
+
+/*1*/
+.help-box{
+    width: 70%;
+    border: 1px solid #ccc;
+    height: auto;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 30px 20px;
+}
+.help-box ul li{
+    /*padding: 5px 0;*/
+}
+.help-title{
+    font-size: 0.875rem;
+    border-bottom: 1px solid #ccc;
+    font-weight: 500;
+    padding: 6px 0;
+}
+
+.help-link a{
+    display: block;
+    padding: 6px 0;
+    font-size: 0.875rem;
+    color:#959595;
+    font-weight: 500;
+}
+
+
+
+/*2*/
+.terms-content{
+    width: 100%;
+    margin:40px auto;
+    font-family: Helvetica;
+}
+.terms-content ul li{
+    border-bottom: 1px solid #959595;
+
+}
+.terms-content ul li a{
+
+    display: block;
+    font-size: 0.875rem;
+    font-family: Helvetica;
+    color: #474747;
+    height: 40px;
+    line-height: 40px;
+    /*padding: 10px 0;*/
+    /*font-weight:600;*/
+}
+.terms-content ul li p{
+    border-top: 1px solid #969896;
+    display: none;
+    padding: 10px 0;
+    font-size: 0.95rem;
+    line-height: 30px;
+    margin: 0;
+    color: #474747;
+}
+.terms-content ul li a i{
+    float: right;
+    color: #8f9cb7;
+}
+
+
+
+/*3*/
+.contact{
+    margin-bottom: 40px;
+}
+.contact input{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    border: 1px solid #959595;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 5px;
+    font-size: 1rem;
+    font-family: Helvetica;
+
+}
+.contact select{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 5px;
+    outline: none;
+    font-size: 1rem;
+    color: #969896;
+    font-family: Helvetica;
+    border: none;
+    border: 1px solid #959595;
+}
+.contact textarea{
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    text-indent: 5px;
+    outline: none;
+    resize: none;
+    padding: 5px 0;
+    font-size: 1rem;
+    font-family: Helvetica;
+    border: none;
+    border: 1px solid #959595;
+}
+.contact textarea option{
+    padding: 2px 0;
+}
+.contact > a{
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color:black;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}

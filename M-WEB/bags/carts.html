@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimal-ui">
+    <title>Carts | Ezpopsy.com</title>
+    <link rel="stylesheet" href="../font-icon/iconfont.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/carts.css">
+    <script src="../lib/jquery-1.7.2.min.js"></script>
+
+
+</head>
+<body>
+
+<div class="wrapprer">
+    <header>
+        <div class="header-box" id="header-box">
+            <div class="menu">
+                <i id="show-menu" class="icon iconfont icon-icon-menu"></i>
+            </div>
+            <div class="menu-content">
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="../shops/shop-list.html">SHOP ALL</a></li>
+                    <li class="item">
+                        <a href="javascript:void(0)">NECKLACES <i class="icon iconfont icon-htbarrowright02"></i> </a>
+                        <ol style="display: none">
+                            <li>
+                                <a href="../shops/shop-list.html">JRecommend</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">HotSale</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">NewArrival</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">HighPrice</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">LowPrice</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:void(0)">RINGS   <i class="icon iconfont icon-htbarrowright02"></i></a>
+                        <ol style="display: none">
+                            <li>
+                                <a href="../shops/shop-list.html">JRecommend</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">HotSale</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">NewArrival</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:void(0)">EARRINGS <i class="icon iconfont icon-htbarrowright02"></i></a>
+                        <ol style="display: none">
+                            <li>
+                                <a href="../shops/shop-list.html">JRecommend</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">HotSale</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">NewArrival</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:void(0)">BRACELETS <i class="icon iconfont icon-htbarrowright02"></i></a>
+                        <ol style="display: none">
+                            <li>
+                                <a href="../shops/shop-list.html">JRecommend</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">HotSale</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">NewArrival</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="item">
+                        <a href="javascript:void(0)">NEW ARRIVALS <i class="icon iconfont icon-htbarrowright02"></i></a>
+                        <ol style="display: none">
+                            <li>
+                                <a href="../shops/shop-list.html">JRecommend</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">HotSale</a>
+                            </li>
+                            <li>
+                                <a href="../shops/shop-list.html">NewArrival</a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li><a href="../account/account.html" style="color:#727272;">MY ACCOUNT</a></li>
+                    <li><a href="../help/help.html" style="color:#727272;">HELP</a></li>
+                    <li><a href="" style="color:#727272;">FEEDBACK</a></li>
+                    <li> &nbsp;</li>
+                    <li class="user-sign clear">
+                        <a href="../login/login.html">SIGN IN </a>
+                        <a href="../login/login.html">REGISTER</a>
+                        <div class="clear"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="logo">
+                <span></span>
+            </div>
+            <div class="cart">
+                <span><a href="../Collect/Collect.html"><i class="icon iconfont icon-start1"></i></a></span>
+                <span><a href="../bags/carts.html"><i class="icon iconfont icon-shoppingbag"></i> <label id="bag-number">2</label> </a></span>
+            </div>
+        </div>
+    </header>
+    <section>
+       <div class="bag">
+           <!--购物进度状态-->
+           <div class="shopping-status">
+               <table >
+                   <tr>
+                       <td class="type-number ">
+                           <span class="type-now-number"> 1</span>
+                       </td>
+                       <td class="type-hr">
+                           <span><i class="icon iconfont icon-youjiantou1"></i></span>
+                       </td>
+                       <td class="type-number">
+                           <span >2</span>
+                       </td>
+                       <td class="type-hr">
+                           <span><i class="icon iconfont icon-youjiantou1"></i></span>
+                       </td>
+                       <td class="type-number">
+                           <span >3</span>
+                       </td>
+                       <td class="type-hr">
+                           <span><i class="icon iconfont icon-youjiantou1"></i></span>
+                       </td>
+                       <td class="type-number">
+                           <span>4</span>
+                       </td>
+                   </tr>
+                   <tr class="type-title">
+                       <td class="type-now-title">Bag</td>
+                       <td></td>
+                       <td >Order</td>
+                       <td></td>
+                       <td >Pay</td>
+                       <td></td>
+                       <td>Complete</td>
+                   </tr>
+               </table>
+           </div>
+           <div class="bags-list">
+
+                <div class="back">
+                  <i class="icon iconfont icon-zuojiantou"></i><a href="../index.html">CONTINUE SHOPPING</a>
+               </div>
+
+               <div class="shop-box">
+                   <div class="shop-box-img">
+                       <a href=""><img src="../images/product3.jpg" alt=""></a>
+                   </div>
+                   <ul>
+                       <li class="shops-name">Golden Gold Plated Tassel In Deep Necklace</li>
+                       <li class="shops-attr"><span>SKU:</span> <span>Q4125834</span></li>
+                       <li class="shops-attr"><span>Price:</span> <span>$96.00</span></li>
+                       <li class="shops-attr"><span>Color:</span> <span>blue</span></li>
+                       <li class="shops-attr"><span>Size:</span> <span>4</span></li>
+                       <li class="shops-attr num"> <span>Quantity: </span>
+                           <a href="javascript:void(0)" class="shop-subtract"> <i class="icon iconfont icon-subtract"></i></a>
+                           <input type="text" value="1" name="shop-num" id="shop-num">
+                           <a href="javascript:void(0)" class="shop-add"><i class="icon iconfont icon-add"></i></a>
+                       </li>
+                       <li class="shops-attr edit">
+                           <a href="javascript:void(0)" class="edit-shop" style="width: 25%">Edit</a>
+                           <a href="javascript:void(0)" style="width:50%;text-align: center">Add To Wishlist</a>
+                           <a href="javascript:void(0)" class="remove-shop" style="width:25%;text-align: right">Remover</a>
+                           <div class="clear"></div>
+                       </li>
+                   </ul>
+               </div>
+               <div class="shop-box">
+                   <div class="shop-box-img">
+                       <a href=""><img src="../images/product3.jpg" alt=""></a>
+                   </div>
+                   <ul>
+                       <li class="shops-name">Golden Gold Plated Tassel In Deep Necklace</li>
+                       <li class="shops-attr"><span>SKU:</span> <span>Q4125834</span></li>
+                       <li class="shops-attr"><span>Price:</span> <span>$96.00</span></li>
+                       <li class="shops-attr"><span>Color:</span> <span>blue</span></li>
+                       <li class="shops-attr"><span>Size:</span> <span>4</span></li>
+                       <li class="shops-attr num"> <span>Quantity: </span>
+                           <a href="javascript:void(0)" class="shop-subtract"> <i class="icon iconfont icon-subtract"></i></a>
+                           <input type="text" value="1" name="shop-num" id="shop-num2">
+                           <a href="javascript:void(0)" class="shop-add"><i class="icon iconfont icon-add"></i></a>
+                       </li>
+                       <li class="shops-attr edit">
+                           <a href="javascript:void(0)" class="edit-shop" style="width: 25%">Edit</a>
+                           <a href="javascript:void(0)" style="width:50%;text-align: center">Add Wishlist</a>
+                           <a href="javascript:void(0)" class="remove-shop" style="width:25%;text-align: right">Remover</a>
+                           <div class="clear"></div>
+                       </li>
+                   </ul>
+               </div>
+
+               <div class="shop-total">
+                   <ul>
+                       <li class="shop-total-text">Order  summary</li>
+                       <li>
+                           <span>Subtota</span>
+                           <span> $96.00</span>
+                       </li>
+                       <li>
+                           <span>Shipping</span>
+                           <span>$0.00</span>
+                       </li>
+                       <li>
+                           <span>Estimated Total</span> <span></span>
+                       </li>
+                       <li style="font-weight:600">
+                           <span>Total</span>
+                           <span>USD $96.00</span>
+                       </li>
+                       <li class="shop-hr">&nbsp;</li>
+
+                       <li class="pay-code">
+                           <p class="shop-total-text" style="text-align: left;margin:0">Enter Promotional Code </p>
+
+                           <input type="text" placeholder="Enter here">
+                           <a href="javascript:void(0)" class="Apply-code">Apply Code</a>
+
+                       </li>
+
+                       <!--<li class="shops-btn"><a href="../pay/pay.html" style="background-color: black;color: white">Checkout</a></li>-->
+                       <!--<li class="shops-btn">-->
+                           <!--<a href="" style="background-color: #ffc439;color: black">-->
+                           <!--<span>Check out with</span><img src="../images/check.png" alt="">-->
+                          <!--</a>-->
+                       <!--</li>-->
+                   </ul>
+               </div>
+
+           </div>
+       </div>
+    </section>
+    <footer class="clear">
+        <!--<div class="other-link">-->
+            <!--<a href=""><i class="icon iconfont icon-tian7_facebook"></i></a>-->
+            <!--<a href=""><i class="icon iconfont icon-google1"></i></a>-->
+            <!--<a href=""><i class="icon iconfont icon-Twitter"></i></a>-->
+            <!--<a href=""><i class="icon iconfont icon-icon_pinterest"></i></a>-->
+            <!--<a href=""><i class="icon iconfont icon-youtube"></i></a>-->
+        <!--</div>-->
+
+        <!--<div class="sign">-->
+            <!--<input type="text" name="email" placeholder="Enter Your Email Address">-->
+            <!--<a href="javascript:void(0)" class="btn">Sign Up</a>-->
+        <!--</div>-->
+
+        <div class="bottom-nav">
+            <ul>
+                <li class="item">
+                    <a href="javascript:void(0)">POLICY  <i class="icon iconfont icon-htbarrowright02"></i></a>
+                    <ol style="display: none" class="ol-nav">
+                        <li>
+                            <a href="javascript:void(0)">45</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">78</a>
+                        </li>
+                    </ol>
+                </li>
+
+                <li class="item">
+                    <a href="javascript:void(0)">CUSTOMER SERVICE <i class="icon iconfont icon-htbarrowright02"></i></a>
+                    <ol style="display: none">
+                        <li>
+                            <a href="">45</a>
+                        </li>
+                        <li>
+                            <a href="">78</a>
+                        </li>
+                    </ol>
+
+                </li>
+                <li class="item">
+                    <a href="javascript:void(0)">SHOPPING GUIDE<i class="icon iconfont icon-htbarrowright02"></i></a>
+                    <ol style="display: none">
+                        <li>
+                            <a href="">45</a>
+                        </li>
+                        <li>
+                            <a href="">78</a>
+                        </li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+
+        <div style="text-align: center;color: #727272;font-size: 0.8rem;font-family: Helvetica;margin-bottom: 40px;">© 2017 Bemelos.com All Right Reserved.</div>
+    </footer>
+
+    <!--Sure remove-->
+    <div class="remove-box">
+         <div><a href="javascript:void(0)" class="close"><i class="icon iconfont icon-close" style="font-size: 1.2rem"></i></a></div>
+         <p class="clear">Are You Sure You Want To Delete This Information?</p>
+         <a href="javascript:void(0)" style="background-color: #333;color: white" class="delete">Delete</a>
+         <a href="javascript:void(0)" style="background-color: white;color: #333;border: 1px solid #959595" class="cancel">Cancel</a>
+    </div>
+
+     <!--Edit background-->
+     <div class="Edit-box">
+         <div><a href="javascript:void(0)" class="edit-close" style="float: right"><i class="icon iconfont icon-close" style="font-size: 1.2rem"></i></a></div>
+         <div class="clear edit-img">
+             <img src="../images/product1.jpg" alt="">
+         </div>
+         <ul>
+             <li class="edit-shop-name">Golden Gold Plated Tassel In Deep Necklace</li>
+             <li style="color:#767677;font-size: 0.85rem">SKU:Q4125834</li>
+             <li class="edit-price">$ 96.00</li>
+             <li style="font-size: 0.85rem">
+                 <span>Color: </span><span style="color: #a48156;margin-left: 5px;">BLUE</span>
+                 <div class="edit-change"><span></span> <span></span></div>
+             </li>
+             <li style="font-size: 0.85rem">
+                 <span>Size:</span>
+                  <div class="edit-size">
+                      <a href="javascript:void(0)" class="size-active">0</a>
+                      <a href="javascript:void(0)">2</a>
+                      <a href="javascript:void(0)">4</a>
+                      <a href="javascript:void(0)">6</a>
+                  </div>
+             </li>
+
+             <li class="edit-up"><a href="javascript:void(0)" class="Update">Update</a></li>
+             <li class="edit-view"><a href="../product/product.html">view full details</a></li>
+         </ul>
+
+
+     </div>
+
+    <div class="background">
+    </div>
+
+
+
+
+<!--固定支付按钮-->
+    <div class="pay-but">
+        <a href="../pay/pay.html">checkout</a><a href=""><img src="../images/check.png" alt=""></a>
+    </div>
+
+
+</div>
+
+<script src="../lib/base.js"></script>
+
+<script>
+
+//shopping number add
+    $('.shop-add').each(function () {
+        $(this).click(function () {
+            $(this).siblings('input').val(Number( $(this).siblings('input').val())+1);
+        })
+    });
+
+// shopping number subtract
+    $('.shop-subtract').each(function () {
+        $(this).click(function () {
+            if(Number($(this).siblings('input').val())>1){
+                $(this).siblings('input').val(Number($(this).siblings('input').val())-1);
+            }
+        })
+    })
+
+
+
+//    REMOVE
+    function RemoveShow(type) {
+        $('.remove-box').css('display',type);
+        $('.background').css('display',type);
+        if(type=='block'){
+            $('html').addClass('no-scroll');
+        }else {
+            $('html').removeClass('no-scroll');
+        }
+    }
+
+    $('.remove-shop').each(function () {
+        this.addEventListener("click",function(event){
+          RemoveShow('block')
+        })
+    })
+
+    $('.close,.cancel').click(function () {
+        RemoveShow('none')
+    })
+    $('.delete').click(function () {
+        alert('Delete success!')
+        RemoveShow('none');
+    })
+
+//    EDIT
+    function EditShow(type) {
+        $('.Edit-box').css('display',type);
+        $('.background').css('display',type);
+        if(type=='block'){
+            $('html').addClass('no-scroll');
+        }else {
+            $('html').removeClass('no-scroll');
+        }
+    }
+    $('.edit-shop').click(function () {
+        EditShow('block');
+    });
+    $('.edit-close').click(function () {
+        EditShow('none');
+    });
+    $('.Update').click(function () {
+        alert('Update success!!')
+        EditShow('none');
+    });
+
+
+    $('.edit-change span').each(function () {
+        this.addEventListener("click",function(event){
+            $(this).css('border-color','#a48156').siblings().css('border-color','white');
+        })
+    })
+
+    $('.edit-size a').each(function () {
+        this.addEventListener("click",function(event){
+            $(this).addClass('size-active').siblings().removeClass('size-active');
+        })
+    })
+
+
+
+//验证优惠吗是否为空
+$('.Apply-code').click(function () {
+
+
+    if($('.pay-code input').val()==''|| $('.pay-code input').val()== $('.pay-code input').attr('placeholder')){
+        alert('Please enter the coupon number');
+     }
+
+})
+
+
+</script>
+
+
+</body>
+</html>

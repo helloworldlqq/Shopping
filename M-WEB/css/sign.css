@@ -1,0 +1,76 @@
+.sign-describe{
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 40px 0;
+}
+.sign-describe div{
+    font-size: 1.2rem;
+    font-family: Georgia;
+    margin: 10px 0;
+}
+.sign-describe span{
+    display: inline-block;
+    font-size:0.8rem;
+    line-height: 20px;
+    font-family: Helvetica;
+    color: #4e4e4e;
+}
+.sign-from{
+    width: 96%;
+    margin:40px auto;
+
+}
+.sign-from input{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    outline: none;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    border: 1px solid #969896;
+    text-indent: 10px;
+}
+.btn-sign{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    height: 40px;
+    line-height: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.other-sign{
+    width: 20%;
+    margin:40px auto;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-top: 1px solid #a48156;
+    border-bottom: 1px solid #a48156;
+    font-size: 1.2rem;
+    font-family: Georgia;
+}
+.forgot-password{
+    display:block;
+    width: 100%;
+    text-align: right;
+    color: #a48156;
+    padding: 10px 0;
+    font-size: 0.8rem;
+    font-family: Helvetica;
+}
+.sign-from p{
+    height: 40px;
+    line-height: 40px;
+    font-size: 1rem;
+    font-family: Helvetica;
+    color: #4e4e4e;
+}
+.sign-up p i{
+    font-size: 1.8rem;
+    margin: 0 5px;
+}

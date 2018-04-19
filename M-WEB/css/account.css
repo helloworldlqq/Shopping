@@ -1,0 +1,265 @@
+.header-box{
+    border: none;
+}
+.home-nav{
+    width: 96%;
+    margin: auto;
+    padding-bottom: 3px;
+}
+.back{
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.account-content{
+    margin-bottom: 40px;
+}
+.account-describe{
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 40px 0;
+}
+.account-describe div{
+    font-size: 1.3rem;
+    font-family: Georgia;
+    margin: 10px 0;
+}
+.account-describe span{
+    display: block;
+    font-size:0.8rem;
+    line-height: 20px;
+    font-family: Helvetica;
+    color: #4e4e4e;
+}
+
+.account-menu{
+    border: 1px solid #ccc;
+    padding: 30px 20px;
+    width: 70%;
+    margin: 20px auto;
+    font-size: 0.875rem;
+    font-family: Helvetica;
+    height: 100px;
+}
+
+.account-type{
+    color: black;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+.account-type a{
+    float: right;
+    text-decoration: underline;
+    color: black;
+}
+.account-menu p{
+    color: #484747;
+}
+
+.order-nav{
+    margin: 20px 2%;
+    height: 40px;
+    line-height: 40px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.order-nav a{
+    display: inline-block;
+    width: 29%;
+    float: left;
+    text-align: center;
+    font-size: 0.8rem;
+    color: black;
+}
+#order-pending{
+    border-left: 1px solid #959595;
+    border-right: 1px solid #959595;
+}
+.order-box{
+    margin: 30px 2%;
+    border-bottom: 1px solid #ccc;
+}
+.order-img{
+    width: 60%;
+    margin:10px auto;
+    overflow: hidden;
+}
+.order-img img{
+    display: block;
+    border: none;
+    width: 100%;
+}
+.order-box ul{
+    display: block;
+    width: 80%;
+    margin:20px auto;
+    font-size: 0.875rem;
+    font-family: Helvetica;
+}
+.order-box ul li{
+    display: block;
+    margin: 10px 0;
+    color: black;
+}
+.order-view{
+    margin-bottom: 30px !important;
+}
+.order-view a{
+    float: right;
+    color: #4e4d4d;
+    text-decoration: underline;
+}
+.order-pay{
+    float: right;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin:0 0 30px 0;
+    font-family: Arial;
+}
+
+.order-active{
+    color: #a48156 !important;
+}
+
+
+
+
+.order-null{
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.order-null p{
+    color: #4e4d4d;
+}
+.order-null a{
+    display: block;
+    width: 75%;
+    margin:30px auto;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-family: Arial;
+    background-color: #252525;
+    color: white;
+}
+
+
+
+.wishlist-remove {
+    text-align: right;
+    margin-right: 5%;
+}
+.wishlist-remove a i{
+    font-size: 20px;
+}
+
+
+
+.coupon-list li{
+    margin: 10px 0 !important;
+}
+.coupon-list li span:last-child{
+    float: right;
+
+}
+
+/*shopping-address*/
+
+.coupon-list li span{
+    display: inline-block;
+    width: 49%;
+    padding-bottom: 10px;
+    float: left;
+    color: #959595;
+}
+
+.order-box ul li span{
+    display: inline-block;
+    padding-bottom: 10px;
+    float: left;
+    color: #959595;
+}
+.order-address {
+    margin: 30px 2%;
+    border-bottom: 1px solid #ccc;
+}
+.order-address ul{
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    font-size: 0.875rem;
+    font-family: Helvetica;
+}
+.order-address ul li{
+    margin: 10px 0;
+}
+.order-address ul li label{
+
+}
+.order-address ul li span{
+    display: inline-block;
+    margin-left: 10px;
+    color: #959595;
+
+}
+
+.order-box ul li label{
+     display: inline-block;
+     font-size: 0.875rem;
+    margin-left: 10px;
+}
+
+ .address-edit a{
+     display: inline-block;
+     text-decoration: underline;
+     margin: 5px 0;
+     font-size: 0.9rem;
+     padding: 5px 0;
+     /*color: black;*/
+     color: #959595;
+ }
+ .account-address-delete{
+     float: right;
+ }
+ .account-address-save{
+     margin-left: 10px !important;
+ }
+ .edit-address-type a{
+     display: inline-block;
+     width: 48%;
+     height: 36px;
+     line-height: 36px;
+     text-align: center;
+     margin-top: 15px;
+     margin-bottom: 10px;
+     font-size: 0.8125rem;
+     font-family: Helvetica;
+     border: 1px solid #959595;
+ }
+
+.account-pay{
+    position: fixed;
+    bottom: 0px;
+    height:50px;
+    line-height: 50px;
+    width: 100%;
+    text-align: center;
+
+ }
+.account-pay a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-family: Helvetica;
+}
